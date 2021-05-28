@@ -1,0 +1,1438 @@
+/*-------VARIABLES----------*/
+/* -----------IMPORTS--------- */
+header {
+  background-color: #e2eaf1; }
+
+.footerBg {
+  background-color: #e2eaf1; }
+
+.footerImg {
+  width: 7vw; }
+
+.w-10 {
+  width: 30%; }
+
+@media only screen and (min-width: 600px) {
+  .w-10 {
+    width: 20%; }
+  .footerImg {
+    width: 3vw; } }
+
+@media only screen and (min-width: 992px) {
+  .w-35 {
+    width: 65%; }
+  .w-10 {
+    width: 15%; }
+  footer h5 {
+    font-size: 1.5rem; }
+  .footerImg {
+    width: 2.5vw; } }
+
+@media only screen and (min-width: 1200px) {
+  .w-35 {
+    width: 55%; }
+  .w-10 {
+    width: 10%; } }
+
+/*--------------------ESTILO DE INDEX-------------------*/
+#indexBody {
+  background-image: url(../Background/pattern4.png);
+  width: 100%; }
+
+.bgSection1 {
+  background-image: url(../Imagenes/puente-de-londres-vertical.jpg);
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  background-attachment: fixed;
+  align-content: center;
+  align-items: center;
+  justify-content: center; }
+  .bgSection1 h1 {
+    text-align: center; }
+  .bgSection1 p {
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400; }
+  .bgSection1 div {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 0px 20px; }
+  .bgSection1 a {
+    align-self: center; }
+
+/* ----------SECCION 1---------- */
+.gridBoxIndex {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo';
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridBoxIndex img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridBoxIndex h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridBoxIndex p {
+    grid-area: parrafo;
+    padding-top: 10px;
+    justify-self: center;
+    text-align: center; }
+
+/* ----------SECCION 2---------- */
+.gridBoxIndex2 {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  padding: 50px 20px;
+  background-color: white; }
+  .gridBoxIndex2 img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridBoxIndex2 h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridBoxIndex2 p {
+    grid-area: parrafo;
+    padding: 10px 0px;
+    text-align: center; }
+  .gridBoxIndex2 a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+/* ----------SECCION 3---------- */
+.gridBoxIndex3 {
+  display: grid;
+  grid-template-areas: "titulo" "div1" "div2" "div3" "boton";
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridBoxIndex3 h2 {
+    grid-area: titulo;
+    padding-bottom: 10px;
+    justify-self: center;
+    font-size: 2rem; }
+  .gridBoxIndex3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .gridBoxIndex3 img {
+    margin-bottom: 1em;
+    width: 25%; }
+  .gridBoxIndex3 #div1 {
+    grid-area: div1;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+  .gridBoxIndex3 #div2 {
+    grid-area: div2;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+  .gridBoxIndex3 #div3 {
+    grid-area: div3;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+  .gridBoxIndex3 a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+@media only screen and (min-width: 460px) {
+  .bgSection1 div {
+    height: 50vh; }
+    .bgSection1 div p {
+      font-size: 1.3rem;
+      font-weight: 300; }
+  .gridBoxIndex {
+    padding: 60px 30px 40px; }
+    .gridBoxIndex img {
+      width: 95%; }
+    .gridBoxIndex h2 {
+      padding-top: 30px; }
+    .gridBoxIndex p {
+      padding-top: 15px;
+      font-size: 1.2rem; }
+  .gridBoxIndex2 {
+    padding: 60px 30px 40px; }
+    .gridBoxIndex2 img {
+      width: 95%; }
+    .gridBoxIndex2 h2 {
+      padding-top: 30px;
+      font-size: 1.8rem; }
+    .gridBoxIndex2 p {
+      padding-top: 15px;
+      font-size: 1.2rem; }
+  .gridBoxIndex3 {
+    padding: 50px 30px 20px; }
+    .gridBoxIndex3 h2 {
+      font-size: 2.3rem; }
+    .gridBoxIndex3 h3 {
+      font-size: 1.7rem; }
+    .gridBoxIndex3 p {
+      font-size: 1.3rem; } }
+
+@media only screen and (min-width: 600px) {
+  .bgSection1 {
+    background-image: url(../Imagenes/puente-de-londres-cuadrado.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center; }
+    .bgSection1 div {
+      justify-content: center;
+      align-items: center; }
+      .bgSection1 div h1 {
+        font-size: 2rem; }
+      .bgSection1 div p {
+        padding-top: 0px; }
+  .gridBoxIndex {
+    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img parrafo parrafo';
+    padding: 60px 20px; }
+    .gridBoxIndex img {
+      width: 100%;
+      align-self: center; }
+    .gridBoxIndex h2 {
+      padding-top: 0px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 1.4rem;
+      text-align: start; }
+    .gridBoxIndex p {
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; }
+  .gridBoxIndex2 {
+    grid-template-areas: 'titulo titulo img' 'parrafo parrafo img' 'boton boton img';
+    padding: 60px 20px; }
+    .gridBoxIndex2 img {
+      width: 100%;
+      align-self: center; }
+    .gridBoxIndex2 h2 {
+      padding-top: 0px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 1.4rem; }
+    .gridBoxIndex2 p {
+      padding-top: 10px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; }
+  .gridBoxIndex3 {
+    grid-template-areas: 'titulo titulo titulo' 'div1 div2 div3' 'boton boton boton';
+    padding: 60px 20px; }
+    .gridBoxIndex3 h2 {
+      padding-bottom: 20px; }
+    .gridBoxIndex3 h3 {
+      font-size: 1.2rem; }
+    .gridBoxIndex3 p {
+      font-size: 0.9rem; }
+    .gridBoxIndex3 img {
+      width: 35%; }
+    .gridBoxIndex3 #div1 {
+      width: 30vw;
+      padding: 20px 5px; }
+    .gridBoxIndex3 #div2 {
+      width: 30vw;
+      padding: 20px 5px; }
+    .gridBoxIndex3 #div3 {
+      width: 30vw;
+      padding: 20px 5px; } }
+
+@media only screen and (min-width: 760px) {
+  .bgSection1 {
+    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
+    background-size: cover; }
+    .bgSection1 div {
+      justify-content: space-evenly;
+      height: 40vh;
+      padding: 0px 25px; }
+      .bgSection1 div h1 {
+        font-size: 2.5rem; }
+      .bgSection1 div p {
+        font-size: 1.5rem;
+        padding: 0px 10px; }
+  .gridBoxIndex {
+    padding: 70px 30px; }
+    .gridBoxIndex h2 {
+      font-size: 1.7rem; }
+    .gridBoxIndex p {
+      font-size: 1rem;
+      padding-top: 0px; }
+  .gridBoxIndex2 {
+    padding: 70px 30px; }
+    .gridBoxIndex2 h2 {
+      font-size: 1.7rem; }
+    .gridBoxIndex2 p {
+      font-size: 1rem;
+      padding: 5px 20px 0px 0px; }
+    .gridBoxIndex2 a {
+      align-self: baseline; }
+  .gridBoxIndex3 {
+    padding: 70px 30px; }
+    .gridBoxIndex3 h3 {
+      font-size: 1.5rem; }
+    .gridBoxIndex3 p {
+      font-size: 1.2rem; }
+    .gridBoxIndex3 a {
+      align-self: baseline; } }
+
+@media only screen and (min-width: 1000px) {
+  .bgSection1 {
+    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
+    background-size: cover; }
+    .bgSection1 div {
+      height: 25vh; }
+  .gridBoxIndex {
+    padding: 80px 40px; }
+    .gridBoxIndex h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridBoxIndex p {
+      font-size: 1.3rem;
+      padding-top: 0px;
+      align-self: center;
+      width: 55vw; }
+  .gridBoxIndex2 {
+    padding: 80px 40px; }
+    .gridBoxIndex2 h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridBoxIndex2 p {
+      font-size: 1.3rem;
+      padding: 5px 20px 0px 0px;
+      align-self: center;
+      width: 55vw; }
+  .gridBoxIndex3 img {
+    width: 28.5%; }
+  .gridBoxIndex3 h3 {
+    font-size: 1.8rem; }
+  .gridBoxIndex3 p {
+    font-size: 1.3rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .bgSection1 div h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px; }
+  .bgSection1 div p {
+    font-size: 1.6rem;
+    letter-spacing: 1px; }
+  .gridBoxIndex {
+    padding: 80px 40px; }
+    .gridBoxIndex h2 {
+      font-size: 2rem; }
+    .gridBoxIndex p {
+      font-size: 1.6rem; }
+  .gridBoxIndex2 {
+    padding: 80px 40px; }
+    .gridBoxIndex2 h2 {
+      font-size: 2rem; }
+    .gridBoxIndex2 p {
+      font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1440px) {
+  .bgSection1 {
+    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
+    background-size: cover; }
+  .gridBoxIndex {
+    padding: 90px 50px; }
+    .gridBoxIndex h2 {
+      font-size: 2.1rem;
+      width: 58vw;
+      letter-spacing: 1px;
+      padding-left: 50px;
+      align-self: center; }
+    .gridBoxIndex p {
+      font-size: 1.9rem;
+      align-self: baseline;
+      width: 58vw;
+      padding-left: 50px; }
+  .gridBoxIndex2 {
+    padding: 90px 50px; }
+    .gridBoxIndex2 h2 {
+      font-size: 2.3rem;
+      width: 58vw;
+      letter-spacing: 2px;
+      padding-right: 40px; }
+    .gridBoxIndex2 p {
+      font-size: 1.8rem;
+      width: 58vw;
+      padding-right: 40px; }
+  .gridBoxIndex3 h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+  .gridBoxIndex3 img {
+    width: 25%; }
+  .gridBoxIndex3 h3 {
+    font-size: 2rem; }
+  .gridBoxIndex3 p {
+    font-size: 1.6rem; } }
+
+/*-------------------ESTILO SOBRE MI--------------------*/
+#meBody {
+  background-image: url(../Background/pattern4.png);
+  width: 100%; }
+
+.sectionBg {
+  background-image: url(../Imagenes/buenos-aires1.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .sectionBg h1 {
+    font-size: 3.3rem;
+    padding-bottom: 30px;
+    letter-spacing: 2px; }
+
+.section4Me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: white; }
+  .section4Me h3 {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    text-shadow: 0px 10px 3px #d8d8d8; }
+
+/* Inicio de grillas */
+.gridBoxMe {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo';
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridBoxMe img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center;
+    align-self: center; }
+  .gridBoxMe h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    font-weight: 600; }
+  .gridBoxMe p {
+    grid-area: parrafo;
+    padding-top: 10px;
+    justify-self: center;
+    text-align: center; }
+
+.gridBoxMe2 {
+  display: grid;
+  grid-template-areas: 'titulo' 'parrafo';
+  padding: 50px 20px;
+  background-color: white; }
+  .gridBoxMe2 h2 {
+    grid-area: titulo;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    justify-self: center; }
+  .gridBoxMe2 p {
+    grid-area: parrafo;
+    padding: 5px 0px 15px;
+    justify-self: center;
+    text-align: center; }
+
+.gridBoxMe3 {
+  display: grid;
+  grid-template-areas: "titulo" "div1" "div2" "div3";
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridBoxMe3 h2 {
+    grid-area: titulo;
+    padding-bottom: 10px;
+    justify-self: center;
+    font-size: 2rem; }
+  .gridBoxMe3 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .gridBoxMe3 div img {
+      margin-bottom: 1em;
+      width: 25%; }
+  .gridBoxMe3 #div1 {
+    grid-area: div1;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+  .gridBoxMe3 #div2 {
+    grid-area: div2;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+  .gridBoxMe3 #div3 {
+    grid-area: div3;
+    justify-self: center;
+    padding: 10px 5px;
+    width: 70vw;
+    text-align: center; }
+
+@media only screen and (min-width: 600px) {
+  .sectionBg {
+    background-image: url(../Imagenes/buenos-aires-cuadrado.jpg); }
+  .gridBoxMe {
+    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img parrafo parrafo';
+    padding: 60px 20px; }
+    .gridBoxMe img {
+      width: 100%;
+      align-self: center; }
+    .gridBoxMe h2 {
+      padding-top: 0px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 1.4rem;
+      text-align: center; }
+    .gridBoxMe p {
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; }
+  .gridBoxMe2 {
+    padding: 60px 20px; }
+    .gridBoxMe2 p {
+      font-size: 1rem;
+      padding-bottom: 0px; }
+  .gridBoxMe3 {
+    grid-template-areas: 'titulo titulo titulo' 'div1 div2 div3';
+    padding: 60px 20px; }
+    .gridBoxMe3 div {
+      text-align: center; }
+    .gridBoxMe3 h2 {
+      padding-bottom: 20px; }
+    .gridBoxMe3 h3 {
+      font-size: 1.2rem; }
+    .gridBoxMe3 p {
+      font-size: 0.9rem; }
+    .gridBoxMe3 img {
+      width: 35%; }
+    .gridBoxMe3 #div1 {
+      width: 30vw;
+      padding: 20px 5px; }
+    .gridBoxMe3 #div2 {
+      width: 30vw;
+      padding: 20px 5px; }
+    .gridBoxMe3 #div3 {
+      width: 30vw;
+      padding: 20px 5px; } }
+
+@media only screen and (min-width: 760px) {
+  .sectionBg h1 {
+    font-size: 3.4rem;
+    padding-bottom: 30px; }
+  .gridBoxMe {
+    padding: 70px 30px; }
+    .gridBoxMe h2 {
+      font-size: 1.7rem; }
+    .gridBoxMe p {
+      font-size: 1rem; }
+  .gridBoxMe2 {
+    padding: 70px 30px; }
+    .gridBoxMe2 h2 {
+      font-size: 1.7rem; }
+    .gridBoxMe2 p {
+      font-size: 1.2rem; }
+  .gridBoxMe3 {
+    padding: 70px 30px; }
+    .gridBoxMe3 h3 {
+      font-size: 1.5rem; }
+    .gridBoxMe3 p {
+      font-size: 1.2rem; }
+  .section4Me {
+    padding: 70px 30px; }
+    .section4Me h3 {
+      font-size: 1.8rem;
+      padding-bottom: 25px; } }
+
+@media only screen and (min-width: 1000px) {
+  .sectionBg {
+    background-image: url(../Imagenes/buenos-aires.jpg); }
+    .sectionBg h1 {
+      font-size: 4rem;
+      letter-spacing: 4px; }
+  .gridBoxMe {
+    padding: 80px 40px; }
+    .gridBoxMe img {
+      width: 90%; }
+    .gridBoxMe h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridBoxMe p {
+      font-size: 1.3rem;
+      padding-top: 0px;
+      align-self: center;
+      width: 55vw; }
+  .gridBoxMe2 {
+    padding: 80px 40px; }
+    .gridBoxMe2 h2 {
+      font-size: 2.4rem;
+      padding-bottom: 15px; }
+  .gridBoxMe3 {
+    padding: 80px 40px; }
+    .gridBoxMe3 img {
+      width: 28.5%; }
+    .gridBoxMe3 h2 {
+      font-size: 2.4rem; }
+    .gridBoxMe3 h3 {
+      font-size: 1.7rem; }
+    .gridBoxMe3 p {
+      font-size: 1.3rem; }
+  .section4Me h3 {
+    font-size: 2.2rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .sectionBg h1 {
+    font-size: 3.8rem; }
+  .gridBoxMe {
+    padding: 80px 40px; }
+    .gridBoxMe h2 {
+      font-size: 2rem;
+      padding-top: 20px; }
+    .gridBoxMe p {
+      font-size: 1.6rem; }
+  .gridBoxMe2 {
+    padding: 80px 40px; }
+    .gridBoxMe2 h2 {
+      font-size: 2.5rem; }
+    .gridBoxMe2 p {
+      font-size: 1.6rem; }
+  .gridBoxMe3 {
+    padding: 80px 40px; }
+    .gridBoxMe3 h2 {
+      font-size: 2.3rem; }
+    .gridBoxMe3 h3 {
+      font-size: 1.8rem; }
+    .gridBoxMe3 p {
+      font-size: 1.3rem; }
+  .section4Me h3 {
+    font-size: 2.8rem; }
+  .section4Me a {
+    font-size: 1.2rem; } }
+
+@media only screen and (min-width: 1400px) {
+  .sectionBg h1 {
+    font-size: 4rem; }
+  .gridBoxMe {
+    padding: 90px 50px; }
+    .gridBoxMe h2 {
+      font-size: 2.1rem;
+      width: 58vw;
+      letter-spacing: 1px;
+      padding-left: 40px;
+      align-self: center; }
+    .gridBoxMe p {
+      font-size: 1.9rem;
+      align-self: baseline;
+      width: 58vw;
+      padding-left: 40px; }
+  .gridBoxMe2 {
+    padding: 90px 50px; }
+    .gridBoxMe2 h2 {
+      font-size: 2.6rem;
+      letter-spacing: 1px;
+      align-self: center; }
+    .gridBoxMe2 p {
+      font-size: 1.9rem;
+      align-self: baseline; }
+  .gridBoxMe3 {
+    padding: 90px 50px; }
+    .gridBoxMe3 img {
+      width: 25%; }
+    .gridBoxMe3 h2 {
+      font-size: 2.6rem; }
+    .gridBoxMe3 h3 {
+      font-size: 2rem; }
+    .gridBoxMe3 p {
+      font-size: 1.5rem; }
+  .section4Me {
+    padding: 90px 50px; }
+    .section4Me h3 {
+      font-size: 3.3rem;
+      padding-bottom: 30px; }
+    .section4Me a {
+      font-size: 1.6rem; } }
+
+/*----------------ESTILO DE SERVICIOS--------------*/
+#serviciosBody {
+  background-image: url(../Background/pattern4.png);
+  width: 100%; }
+
+.servBg {
+  background-image: url(../Imagenes/new-york-3.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .servBg h1 {
+    font-size: 3.3rem;
+    padding-bottom: 30px;
+    letter-spacing: 2px; }
+
+.gridBoxServ {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  padding: 50px 20px;
+  background-color: white; }
+  .gridBoxServ img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridBoxServ h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridBoxServ p {
+    grid-area: parrafo;
+    padding: 10px 0px;
+    text-align: center; }
+  .gridBoxServ a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+.gridBoxServ2 {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridBoxServ2 img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridBoxServ2 h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridBoxServ2 p {
+    grid-area: parrafo;
+    padding: 10px 0px;
+    text-align: center; }
+  .gridBoxServ2 a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+@media only screen and (min-width: 460px) {
+  .gridBoxServ {
+    padding: 60px 30px 40px; }
+    .gridBoxServ img {
+      width: 100%; }
+    .gridBoxServ h2 {
+      padding-top: 30px;
+      font-size: 1.8rem; }
+    .gridBoxServ p {
+      padding-top: 15px;
+      font-size: 1.2rem; }
+  .gridBoxServ2 {
+    padding: 60px 30px 40px; }
+    .gridBoxServ2 img {
+      width: 100%; }
+    .gridBoxServ2 h2 {
+      padding-top: 30px;
+      font-size: 1.8rem; }
+    .gridBoxServ2 p {
+      padding-top: 15px;
+      font-size: 1.2rem; } }
+
+@media only screen and (min-width: 600px) {
+  .servBg {
+    background-image: url(../Imagenes/new-york-2-cuadrado.jpg); }
+    .servBg h1 {
+      font-size: 2.4rem; }
+  .gridBoxServ {
+    grid-template-areas: 'titulo titulo img' 'parrafo parrafo img' 'boton none img';
+    padding: 60px 20px; }
+    .gridBoxServ img {
+      width: 100%;
+      align-self: center; }
+    .gridBoxServ h2 {
+      padding-top: 0px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 1.4rem; }
+    .gridBoxServ p {
+      padding-top: 10px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; }
+  .gridBoxServ2 {
+    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img none boton';
+    padding: 60px 20px; }
+    .gridBoxServ2 img {
+      width: 100%;
+      align-self: center; }
+    .gridBoxServ2 h2 {
+      padding-top: 0px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 1.4rem; }
+    .gridBoxServ2 p {
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; } }
+
+@media only screen and (min-width: 760px) {
+  .servBg h1 {
+    font-size: 3.4rem;
+    padding-bottom: 30px; }
+  .gridBoxServ {
+    padding: 70px 30px; }
+    .gridBoxServ h2 {
+      font-size: 1.7rem; }
+    .gridBoxServ p {
+      font-size: 1rem;
+      padding: 5px 20px 0px 0px; }
+    .gridBoxServ a {
+      align-self: baseline; }
+  .gridBoxServ2 {
+    padding: 70px 30px; }
+    .gridBoxServ2 h2 {
+      font-size: 1.7rem; }
+    .gridBoxServ2 p {
+      font-size: 1rem;
+      padding: 5px 0px 0px 20px; }
+    .gridBoxServ2 a {
+      align-self: baseline; } }
+
+@media only screen and (min-width: 1000px) {
+  .servBg {
+    background-image: url(../Imagenes/new-york-2.jpg); }
+    .servBg h1 {
+      font-size: 4rem;
+      letter-spacing: 4px; }
+  .gridBoxServ {
+    padding: 80px 40px; }
+    .gridBoxServ h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridBoxServ p {
+      font-size: 1.3rem;
+      padding: 5px 20px 0px 0px;
+      align-self: center;
+      width: 55vw; }
+  .gridBoxServ2 {
+    padding: 80px 40px; }
+    .gridBoxServ2 h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridBoxServ2 p {
+      font-size: 1.3rem;
+      padding: 5px 0px 0px 20px;
+      align-self: center;
+      width: 55vw; } }
+
+@media only screen and (min-width: 1200px) {
+  .servBg h1 {
+    font-size: 3.8rem; }
+  .gridBoxServ {
+    padding: 80px 40px; }
+    .gridBoxServ h2 {
+      font-size: 2rem; }
+    .gridBoxServ p {
+      font-size: 1.5rem; }
+  .gridBoxServ2 {
+    padding: 80px 40px; }
+    .gridBoxServ2 h2 {
+      font-size: 2rem; }
+    .gridBoxServ2 p {
+      font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1400px) {
+  .servBg h1 {
+    font-size: 4rem; }
+  .gridBoxServ {
+    padding: 90px 50px; }
+    .gridBoxServ h2 {
+      font-size: 2.3rem;
+      width: 58vw;
+      letter-spacing: 2px;
+      padding-right: 40px; }
+    .gridBoxServ p {
+      font-size: 1.8rem;
+      width: 58vw;
+      padding-right: 40px; }
+  .gridBoxServ2 {
+    padding: 90px 50px; }
+    .gridBoxServ2 h2 {
+      font-size: 2.3rem;
+      width: 58vw;
+      letter-spacing: 2px;
+      padding-left: 40px; }
+    .gridBoxServ2 p {
+      font-size: 1.8rem;
+      width: 58vw;
+      padding-left: 40px; } }
+
+/*--------------------ESTILO DE PORTFOLIO----------------*/
+#portfolioBody {
+  background-image: url(../Background/pattern4.png); }
+
+.portBg {
+  background-image: url(../Imagenes/sydney-cuadrado.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .portBg h1 {
+    font-size: 3.3rem;
+    padding-bottom: 30px;
+    letter-spacing: 2px; }
+
+.portButton {
+  text-align: center;
+  text-decoration: none;
+  background-color: #F1E9E2;
+  padding: 3px 15px !important;
+  border: solid 2px black;
+  border-radius: 10px;
+  font-size: 1.4rem;
+  color: black; }
+
+.portButton:hover {
+  background-color: #e5cecc;
+  color: black;
+  border: solid 2px #4B5C6B; }
+
+#portImg {
+  width: 30px;
+  padding-right: 5px; }
+
+.gridPort1 {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  padding: 50px 20px;
+  background-color: white; }
+  .gridPort1 img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridPort1 h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridPort1 p {
+    grid-area: parrafo;
+    padding: 10px 0px;
+    text-align: center; }
+  .gridPort1 a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+.gridPort2 {
+  display: grid;
+  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  padding: 50px 20px;
+  background-color: #EFF4F8; }
+  .gridPort2 img {
+    grid-area: img;
+    width: 95%;
+    justify-self: center; }
+  .gridPort2 h2 {
+    grid-area: titulo;
+    padding-top: 25px;
+    justify-self: center;
+    text-align: center; }
+  .gridPort2 p {
+    grid-area: parrafo;
+    padding: 10px 0px;
+    text-align: center; }
+  .gridPort2 a {
+    grid-area: boton;
+    justify-self: center;
+    padding: 7px; }
+
+@media only screen and (min-width: 460px) {
+  .gridPort1 {
+    padding: 60px 30px 40px; }
+    .gridPort1 img {
+      width: 100%; }
+    .gridPort1 h2 {
+      padding-top: 30px;
+      font-size: 1.8rem; }
+    .gridPort1 p {
+      padding-top: 15px;
+      font-size: 1.2rem; }
+  .gridPort2 {
+    padding: 60px 30px 40px; }
+    .gridPort2 img {
+      width: 100%; }
+    .gridPort2 h2 {
+      padding-top: 30px;
+      font-size: 1.8rem; }
+    .gridPort2 p {
+      padding-top: 15px;
+      font-size: 1.2rem; } }
+
+@media only screen and (min-width: 600px) {
+  .portBg {
+    background-image: url(../Imagenes/sydney2.jpg); }
+    .portBg h1 {
+      font-size: 2.4rem; }
+  .gridPort1 {
+    grid-template-areas: 'titulo titulo img' 'parrafo parrafo img' 'boton none img';
+    padding: 60px 20px; }
+    .gridPort1 img {
+      width: 100%;
+      align-self: center; }
+    .gridPort1 h2 {
+      padding-top: 0px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 1.4rem; }
+    .gridPort1 p {
+      padding-top: 10px;
+      padding-right: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; }
+  .gridPort2 {
+    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img none boton';
+    padding: 60px 20px; }
+    .gridPort2 img {
+      width: 100%;
+      align-self: center; }
+    .gridPort2 h2 {
+      padding-top: 0px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 1.4rem; }
+    .gridPort2 p {
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 50vw;
+      font-size: 0.9rem;
+      text-align: start; } }
+
+@media only screen and (min-width: 760px) {
+  .portBg h1 {
+    font-size: 3.4rem;
+    padding-bottom: 30px; }
+  .gridPort1 {
+    padding: 70px 30px; }
+    .gridPort1 h2 {
+      font-size: 1.7rem; }
+    .gridPort1 p {
+      font-size: 1rem;
+      padding: 5px 20px 0px 0px; }
+    .gridPort1 a {
+      align-self: baseline; }
+  .gridPort2 {
+    padding: 70px 30px; }
+    .gridPort2 h2 {
+      font-size: 1.7rem; }
+    .gridPort2 p {
+      font-size: 1rem;
+      padding: 5px 0px 0px 20px; }
+    .gridPort2 a {
+      align-self: baseline; } }
+
+@media only screen and (min-width: 1000px) {
+  .portBg {
+    background-image: url(../Imagenes/sydney1.jpg); }
+    .portBg h1 {
+      font-size: 4rem;
+      letter-spacing: 4px; }
+  .gridPort1 {
+    padding: 80px 40px; }
+    .gridPort1 h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridPort1 p {
+      font-size: 1.3rem;
+      padding: 5px 20px 0px 0px;
+      align-self: center;
+      width: 55vw; }
+  .gridPort2 {
+    padding: 80px 40px; }
+    .gridPort2 h2 {
+      font-size: 1.8rem;
+      align-self: center;
+      padding-top: 10px;
+      width: 55vw; }
+    .gridPort2 p {
+      font-size: 1.3rem;
+      padding: 5px 0px 0px 20px;
+      align-self: center;
+      width: 55vw; } }
+
+@media only screen and (min-width: 1200px) {
+  .portBg h1 {
+    font-size: 3.8rem; }
+  .gridPort1 {
+    padding: 80px 40px; }
+    .gridPort1 h2 {
+      font-size: 2rem; }
+    .gridPort1 p {
+      font-size: 1.5rem; }
+  .gridPort2 {
+    padding: 80px 40px; }
+    .gridPort2 h2 {
+      font-size: 2rem; }
+    .gridPort2 p {
+      font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1400px) {
+  .portBg h1 {
+    font-size: 4rem; }
+  .gridPort1 {
+    padding: 90px 50px; }
+    .gridPort1 h2 {
+      font-size: 2.3rem;
+      width: 58vw;
+      letter-spacing: 2px;
+      padding-right: 40px; }
+    .gridPort1 p {
+      font-size: 1.8rem;
+      width: 58vw;
+      padding-right: 40px; }
+  .gridPort2 {
+    padding: 90px 50px; }
+    .gridPort2 h2 {
+      font-size: 2.3rem;
+      width: 58vw;
+      letter-spacing: 2px;
+      padding-left: 40px; }
+    .gridPort2 p {
+      font-size: 1.8rem;
+      width: 58vw;
+      padding-left: 40px; } }
+
+/*-------------------ESTILO DE CONTACTO----------------*/
+#contBody {
+  background-image: url(../Background/pattern4.png); }
+
+.contBg {
+  background-image: url(../Imagenes/toronto2.jpg);
+  background-size: cover;
+  height: 90vh;
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  .contBg h1 {
+    font-size: 3.3rem;
+    padding-bottom: 30px;
+    letter-spacing: 2px; }
+
+.bgCont {
+  background-color: #EFF4F8; }
+
+.contPadding {
+  padding-top: 15px; }
+
+/* Inicio accorderon */
+.preguntas-frecuentes {
+  background-color: white; }
+  .preguntas-frecuentes h2 {
+    margin-bottom: 0px;
+    padding: 1.25rem 1.5rem;
+    border-bottom: solid 1px #f0f0f0;
+    text-align: center; }
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  font-size: 1.1rem;
+  color: #212529;
+  text-align: center;
+  background-color: #fff;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease; }
+
+.accordion-body {
+  padding: 1.5rem 4rem; }
+
+/* fin accordeon */
+@media only screen and (min-width: 600px) {
+  .contBg {
+    background-image: url(../Imagenes/toronto-cuadrado.jpg); } }
+
+@media only screen and (min-width: 992px) {
+  .contBg {
+    background-image: url(../Imagenes/toronto1.jpg); }
+  .contPadding {
+    padding-top: 0px; } }
+
+.section-404 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center; }
+  .section-404 .bg-div1 {
+    display: flex;
+    background-color: #7DBAA4;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44vh; }
+    .section-404 .bg-div1 img {
+      width: 45%; }
+  .section-404 .bg-div2 {
+    background-color: white;
+    text-align: center;
+    height: 44vh;
+    padding: 3.5rem;
+    padding-top: 2rem;
+    width: 100%; }
+    .section-404 .bg-div2 h3 {
+      font-size: 5rem;
+      color: #7DBAA4;
+      font-weight: 600; }
+    .section-404 .bg-div2 h4 {
+      padding-bottom: 1.3rem;
+      font-size: 1.1rem;
+      font-weight: 300; }
+    .section-404 .bg-div2 .button404 {
+      background-color: #7DBAA4;
+      text-decoration: none;
+      color: white;
+      padding: 10px 40px;
+      border-radius: 50px;
+      font-weight: 300; }
+    .section-404 .bg-div2 .button404:hover {
+      background-color: #4B5C6B; }
+
+@media only screen and (min-width: 550px) {
+  .section-404 .bg-div1 img {
+    width: 35%; } }
+
+@media only screen and (min-width: 700px) {
+  .section-404 .bg-div1 img {
+    width: 30%; } }
+
+@media only screen and (min-width: 800px) {
+  .section-404 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .section-404 .bg-div1 {
+      display: flex;
+      width: 50%;
+      height: 85vh; }
+      .section-404 .bg-div1 img {
+        width: 60%; }
+    .section-404 .bg-div2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 85vh;
+      padding: 3.5rem 2rem;
+      width: 50%; }
+      .section-404 .bg-div2 h3 {
+        font-size: 5.2rem; }
+      .section-404 .bg-div2 h4 {
+        font-size: 1.2rem; } }
+
+@media only screen and (min-width: 992px) {
+  .section-404 .bg-div1 {
+    height: 86vh; }
+    .section-404 .bg-div1 img {
+      width: 50%; }
+  .section-404 .bg-div2 {
+    height: 86vh; } }
+
+@media only screen and (min-width: 1200px) {
+  .section-404 .bg-div1 {
+    height: 90vh; }
+    .section-404 .bg-div1 img {
+      width: 40%; }
+  .section-404 .bg-div2 {
+    height: 90vh; }
+    .section-404 .bg-div2 h3 {
+      font-size: 8rem; }
+    .section-404 .bg-div2 h4 {
+      font-size: 1.5rem; } }
+
+/*----------------ESTILO GENERAL------------------*/
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.title1Size {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px #505050; }
+
+.title2Size {
+  font-size: 2rem;
+  font-weight: 900px;
+  text-shadow: 1px 1px #505050;
+  color: black; }
+
+.title4Size {
+  font-weight: 600; }
+
+.textSize {
+  font-size: 1rem;
+  font-weight: 200px; }
+
+.imgShadow {
+  box-shadow: 1.5px 1.5px 2px #7c7c7c, -1.5px -1.5px 2px #7c7c7c;
+  border-radius: 5px; }
+
+.bgButton {
+  background-color: #F1E9E2;
+  text-decoration: none;
+  padding: 8px;
+  border: solid 2px #2E4554;
+  border-radius: 10px 10px;
+  font-size: 1rem;
+  color: black; }
+
+.bgButton:hover {
+  background-color: #e5cecc;
+  color: black;
+  border: solid 2px #4B5C6B; }
+
+@media only screen and (min-width: 1200px) {
+  .bgButton {
+    font-size: 1.3rem; } }
+
+/*----------ANIMACIONES----------*/
+/* Icon Grow Rotate */
+.hvr-icon-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(0.5px) translateZ(0);
+  transform: perspective(0.5px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.hvr-icon-grow-rotate .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.hvr-icon-grow-rotate:hover .hvr-icon,
+.hvr-icon-grow-rotate:focus .hvr-icon,
+.hvr-icon-grow-rotate:active .hvr-icon {
+  -webkit-transform: scale(1.1) rotate(12deg);
+  transform: scale(1.1) rotate(12deg); }
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(0.5px) translateZ(0);
+  transform: perspective(0.5px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden; }
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #7DBAA4;
+  height: 3px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0; }
+
+/* Icon Sink */
+.hvr-icon-sink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s; }
+
+.hvr-icon-sink .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out; }
+
+.hvr-icon-sink:hover .hvr-icon,
+.hvr-icon-sink:focus .hvr-icon,
+.hvr-icon-sink:active .hvr-icon {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); }

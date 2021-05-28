@@ -1,0 +1,166 @@
+/*-------VARIABLES----------*/
+$fondo-claro: #EFF4F8;
+$fondo-hr-ft: #e2eaf1;
+$color-404: #7DBAA4; 
+
+/* -----------IMPORTS--------- */
+
+@import "header-footer";
+@import "estilo-index";
+@import "estilo-sobreMi";
+@import "estilo-servicios";
+@import "estilo-portfolio";
+@import "estilo-contacto";
+@import "estilo-error404";
+
+/*----------------ESTILO GENERAL------------------*/
+
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.title1Size {
+	font-size: 1.8rem;
+	text-shadow: 1px 1px rgb(80, 80, 80);
+}
+
+.title2Size {
+	font-size: 2rem;
+	font-weight: 900px;
+	text-shadow: 1px 1px rgb(80, 80, 80);
+	color: black;
+}
+
+.title4Size {
+	font-weight: 600;
+}
+
+.textSize {
+	font-size: 1rem;
+	font-weight: 200px;
+}
+
+.imgShadow {
+	box-shadow: 1.5px 1.5px 2px rgb(124, 124, 124), -1.5px -1.5px 2px rgb(124, 124, 124);
+	border-radius: 5px;
+}
+
+.bgButton {
+	background-color: #F1E9E2;
+	text-decoration: none;
+	padding: 8px;
+	border: solid 2px #2E4554;
+	border-radius: 10px 10px;
+	font-size: 1rem;
+	color: black;
+}
+
+.bgButton:hover {
+	background-color: #e5cecc;
+	color: black;
+	border: solid 2px #4B5C6B;
+}
+
+@media only screen and (min-width: 1200px) {
+	.bgButton {
+		font-size: 1.3rem;
+	}
+}
+
+/*----------ANIMACIONES----------*/
+
+
+/* Icon Grow Rotate */
+.hvr-icon-grow-rotate {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(.5px) translateZ(0);
+	transform: perspective(.5px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.hvr-icon-grow-rotate .hvr-icon {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.hvr-icon-grow-rotate:hover .hvr-icon,
+.hvr-icon-grow-rotate:focus .hvr-icon,
+.hvr-icon-grow-rotate:active .hvr-icon {
+	-webkit-transform: scale(1.1) rotate(12deg);
+	transform: scale(1.1) rotate(12deg);
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(0.5px) translateZ(0);
+	transform: perspective(0.5px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 51%;
+	right: 51%;
+	bottom: 0;
+	background: #7DBAA4;
+	height: 3px;
+	-webkit-transition-property: left, right;
+	transition-property: left, right;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+	left: 0;
+	right: 0;
+}
+
+/* Icon Sink */
+.hvr-icon-sink {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+.hvr-icon-sink .hvr-icon {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+}
+
+.hvr-icon-sink:hover .hvr-icon,
+.hvr-icon-sink:focus .hvr-icon,
+.hvr-icon-sink:active .hvr-icon {
+	-webkit-transform: translateY(4px);
+	transform: translateY(4px);
+}

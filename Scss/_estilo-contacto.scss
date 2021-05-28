@@ -1,0 +1,82 @@
+/*-------------------ESTILO DE CONTACTO----------------*/
+
+#contBody {
+    background-image: url(../Background/pattern4.png);
+}
+
+.contBg {
+    background-image: url(../Imagenes/toronto2.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3.3rem;
+        padding-bottom: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+.bgCont {
+    background-color: $fondo-claro;
+}
+
+.contPadding {
+    padding-top: 15px;
+}
+
+/* Inicio accorderon */
+.preguntas-frecuentes {
+    background-color: white;
+
+    h2 {
+        margin-bottom: 0px;
+        padding: 1.25rem 1.5rem;
+        border-bottom: solid 1px rgb(240, 240, 240);
+        text-align: center;
+    }
+}
+
+.accordion-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1.5rem 4rem;
+    font-size: 1.1rem;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
+}
+
+.accordion-body {
+    padding: 1.5rem 4rem;
+}
+
+
+
+/* fin accordeon */
+@media only screen and (min-width:600px) {
+    .contBg {
+        background-image: url(../Imagenes/toronto-cuadrado.jpg);
+    }
+}
+
+@media only screen and (min-width:992px) {
+    .contBg {
+        background-image: url(../Imagenes/toronto1.jpg);
+    }
+
+    .contPadding {
+        padding-top: 0px;
+    }
+}

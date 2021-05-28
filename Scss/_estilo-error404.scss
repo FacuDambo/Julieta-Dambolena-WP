@@ -1,0 +1,151 @@
+.section-404 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+        justify-content: center;
+     
+    .bg-div1 {
+        display: flex;
+        background-color: $color-404;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 44vh;
+        img {
+            width: 45%;
+        }
+    }
+    
+    .bg-div2 {
+        background-color: white;
+        text-align: center;
+        height: 44vh;
+        padding: 3.5rem;
+        padding-top: 2rem;
+        width: 100%;
+
+        h3 {
+            font-size: 5rem;
+            color: $color-404;
+            font-weight: 600;
+        }
+
+        h4 {
+            padding-bottom: 1.3rem;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .button404 {
+            background-color: $color-404;
+            text-decoration: none;
+            color: white;
+            padding: 10px 40px;
+            border-radius: 50px;
+            font-weight: 300;
+        }
+
+        .button404:hover {
+            background-color: #4B5C6B;
+        }
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .section-404 {
+        .bg-div1 {
+            img {
+                width: 35%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .section-404 {
+        .bg-div1 {
+            img {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .section-404 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        .bg-div1 {
+            display: flex;
+            width: 50%;
+            height: 85vh;
+                
+            img {
+                 width: 60%;
+            }
+        }
+
+        .bg-div2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 85vh;
+            padding: 3.5rem 2rem;
+            width: 50%;
+
+            h3 {
+                font-size: 5.2rem;
+            }
+
+            h4 {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .section-404 {
+        .bg-div1 {
+            height: 86vh;
+
+            img {
+                width: 50%; 
+            }
+        }
+
+        .bg-div2 {
+            height: 86vh;
+        }
+    } 
+}
+
+@media only screen and (min-width: 1200px) {
+    .section-404 {
+        .bg-div1 {
+            height: 90vh;
+
+            img {
+                width: 40%; 
+            }
+        }
+
+        .bg-div2 {
+            height: 90vh;
+        
+
+            h3 {
+                font-size: 8rem;
+            }
+
+            h4 {
+                font-size: 1.5rem;
+            }
+        }
+    } 
+}

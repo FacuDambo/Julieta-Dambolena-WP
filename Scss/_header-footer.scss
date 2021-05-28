@@ -1,0 +1,53 @@
+header {
+	background-color: $fondo-hr-ft;
+}
+
+.footerBg {
+	background-color: $fondo-hr-ft;
+}
+
+.footerImg {
+	width: 7vw;
+}
+
+.w-10 {
+	width: 30%;
+}
+
+@media only screen and (min-width: 600px) {
+	.w-10 {
+		width: 20%;
+	}
+
+	.footerImg {
+		width: 3vw;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.w-35 {
+		width: 65%;
+	}
+
+	.w-10 {
+		width: 15%;
+	}
+
+	footer h5 {
+		font-size: 1.5rem;
+	}
+
+	.footerImg {
+		width: 2.5vw;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.w-35 {
+		width: 55%;
+	}
+
+	.w-10 {
+		width: 10%;
+	}
+}

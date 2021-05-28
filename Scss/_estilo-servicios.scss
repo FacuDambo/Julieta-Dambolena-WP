@@ -1,0 +1,367 @@
+/*----------------ESTILO DE SERVICIOS--------------*/
+
+#serviciosBody {
+	background-image: url(../Background/pattern4.png);
+	width: 100%;
+}
+
+.servBg {
+	background-image: url(../Imagenes/new-york-3.jpg);
+	background-size: cover;
+	height: 90vh;
+	background-attachment: fixed;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	h1 {
+		font-size: 3.3rem;
+		padding-bottom: 30px;
+		letter-spacing: 2px;
+	}
+}
+
+.gridBoxServ {
+	display: grid;
+	grid-template-areas: 'img'
+		'titulo'
+		'parrafo'
+		'boton';
+	padding: 50px 20px;
+	background-color: white;
+
+
+	img {
+		grid-area: img;
+		width: 95%;
+		justify-self: center;
+	}
+
+	h2 {
+		grid-area: titulo;
+		padding-top: 25px;
+		justify-self: center;
+		text-align: center;
+	}
+
+	p {
+		grid-area: parrafo;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	a {
+		grid-area: boton;
+		justify-self: center;
+		padding: 7px;
+	}
+}
+
+.gridBoxServ2 {
+	display: grid;
+	grid-template-areas: 'img'
+		'titulo'
+		'parrafo'
+		'boton';
+	padding: 50px 20px;
+	background-color: $fondo-claro;
+
+
+	img {
+		grid-area: img;
+		width: 95%;
+		justify-self: center;
+	}
+
+	h2 {
+		grid-area: titulo;
+		padding-top: 25px;
+		justify-self: center;
+		text-align: center;
+	}
+
+	p {
+		grid-area: parrafo;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	a {
+		grid-area: boton;
+		justify-self: center;
+		padding: 7px;
+	}
+}
+
+@media only screen and (min-width: 460px) {
+	.gridBoxServ {
+		padding: 60px 30px 40px;
+
+		img {
+			width: 100%
+		}
+
+		h2 {
+			padding-top: 30px;
+			font-size: 1.8rem;
+		}
+
+		p {
+			padding-top: 15px;
+			font-size: 1.2rem;
+		}
+	}
+
+	.gridBoxServ2 {
+		padding: 60px 30px 40px;
+
+		img {
+			width: 100%
+		}
+
+		h2 {
+			padding-top: 30px;
+			font-size: 1.8rem;
+		}
+
+		p {
+			padding-top: 15px;
+			font-size: 1.2rem;
+		}
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	.servBg {
+		background-image: url(../Imagenes/new-york-2-cuadrado.jpg);
+
+		h1 {
+			font-size: 2.4rem;
+		}
+	}
+
+	.gridBoxServ {
+		grid-template-areas: 'titulo titulo img'
+			'parrafo parrafo img'
+			'boton none img';
+		padding: 60px 20px;
+
+		img {
+			width: 100%;
+			align-self: center;
+		}
+
+		h2 {
+			padding-top: 0px;
+			padding-right: 20px;
+			width: 50vw;
+			font-size: 1.4rem;
+		}
+
+		p {
+			padding-top: 10px;
+			padding-right: 20px;
+			width: 50vw;
+			font-size: 0.9rem;
+			text-align: start;
+		}
+
+	}
+
+	.gridBoxServ2 {
+		grid-template-areas: 'img titulo titulo'
+			'img parrafo parrafo'
+			'img none boton';
+		padding: 60px 20px;
+
+		img {
+			width: 100%;
+			align-self: center;
+		}
+
+		h2 {
+			padding-top: 0px;
+			padding-left: 20px;
+			width: 50vw;
+			font-size: 1.4rem;
+		}
+
+		p {
+			padding-top: 10px;
+			padding-left: 20px;
+			width: 50vw;
+			font-size: 0.9rem;
+			text-align: start;
+		}
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	.servBg {
+		h1 {
+			font-size: 3.4rem;
+			padding-bottom: 30px;
+		}
+	}
+
+	.gridBoxServ {
+		padding: 70px 30px;
+
+		h2 {
+			font-size: 1.7rem;
+		}
+
+		p {
+			font-size: 1rem;
+			padding: 5px 20px 0px 0px;
+		}
+
+		a {
+			align-self: baseline;
+		}
+	}
+
+	.gridBoxServ2 {
+		padding: 70px 30px;
+
+		h2 {
+			font-size: 1.7rem;
+		}
+
+		p {
+			font-size: 1rem;
+			padding: 5px 0px 0px 20px;
+		}
+
+		a {
+			align-self: baseline;
+		}
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.servBg {
+		background-image: url(../Imagenes/new-york-2.jpg);
+
+		h1 {
+			font-size: 4rem;
+			letter-spacing: 4px;
+		}
+	}
+
+	.gridBoxServ {
+		padding: 80px 40px;
+
+		h2 {
+			font-size: 1.8rem;
+			align-self: center;
+			padding-top: 10px;
+			width: 55vw;
+		}
+
+		p {
+			font-size: 1.3rem;
+			padding: 5px 20px 0px 0px;
+			align-self: center;
+			width: 55vw;
+		}
+	}
+
+	.gridBoxServ2 {
+		padding: 80px 40px;
+
+		h2 {
+			font-size: 1.8rem;
+			align-self: center;
+			padding-top: 10px;
+			width: 55vw;
+		}
+
+		p {
+			font-size: 1.3rem;
+			padding: 5px 0px 0px 20px;
+			align-self: center;
+			width: 55vw;
+		}
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.servBg {
+		h1 {
+			font-size: 3.8rem;
+		}
+	}
+
+	.gridBoxServ {
+		padding: 80px 40px;
+
+		h2 {
+			font-size: 2rem;
+
+		}
+
+		p {
+			font-size: 1.5rem;
+
+		}
+	}
+
+	.gridBoxServ2 {
+		padding: 80px 40px;
+
+		h2 {
+			font-size: 2rem;
+
+		}
+
+		p {
+			font-size: 1.5rem;
+
+		}
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	.servBg {
+		h1 {
+			font-size: 4rem;
+		}
+	}
+
+	.gridBoxServ {
+		padding: 90px 50px;
+
+		h2 {
+			font-size: 2.3rem;
+			width: 58vw;
+			letter-spacing: 2px;
+			padding-right: 40px;
+		}
+
+		p {
+			font-size: 1.8rem;
+			width: 58vw;
+			padding-right: 40px;
+		}
+	}
+
+	.gridBoxServ2 {
+		padding: 90px 50px;
+
+		h2 {
+			font-size: 2.3rem;
+			width: 58vw;
+			letter-spacing: 2px;
+			padding-left: 40px;
+		}
+
+		p {
+			font-size: 1.8rem;
+			width: 58vw;
+			padding-left: 40px;
+		}
+	}
+}
