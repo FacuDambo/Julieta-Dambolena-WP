@@ -1,7 +1,7 @@
 /*--------------------ESTILO DE PORTFOLIO----------------*/
 
 #portfolioBody {
-	background-image: url(../Background/pattern4.png);
+	background-color: $fondo-claro;
 }
 
 .portBg {
@@ -51,7 +51,7 @@
 		'parrafo'
 		'boton';
 	padding: 50px 20px;
-	background-color: white;
+	background-color: $fondo-claro;
 
 
 	img {
@@ -87,7 +87,7 @@
 		'parrafo'
 		'boton';
 	padding: 50px 20px;
-	background-color: $fondo-claro;
+	background-color: white;
 
 
 	img {
