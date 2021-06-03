@@ -38,6 +38,10 @@ header {
 .paddingLine {
   padding-right: 20px; }
 
+footer h5 {
+  letter-spacing: 1px;
+  font-weight: 400; }
+
 @media only screen and (max-width: 380px) {
   .w-10 {
     width: 80%; } }
@@ -45,6 +49,8 @@ header {
 @media only screen and (min-width: 600px) {
   .footerImg {
     width: 6.5vw; }
+  .footerBg {
+    height: 30vh; }
   .footerImgJC {
     justify-content: space-evenly; } }
 
@@ -58,7 +64,7 @@ header {
   footer h5 {
     font-size: 1.5rem; }
   .footerBg {
-    height: 25vh; }
+    height: 24vh; }
   .footerImgJC {
     justify-content: center; }
   .footerImg {
@@ -75,11 +81,14 @@ header {
 @media only screen and (min-width: 1200px) {
   .footerBg {
     height: 25vh; }
+  .footerLogo {
+    padding: 20px;
+    padding-right: 0px; }
   .linkPadding {
     margin: 0px 15px;
     font-size: 1.15rem; }
   .footerImg {
-    width: 3.5vw; }
+    width: 3.2vw; }
   .nav120 {
     width: 120% !important; } }
 
@@ -524,8 +533,7 @@ header {
   background-color: white; }
   .section4Me h3 {
     padding-bottom: 10px;
-    font-size: 1.5rem;
-    text-shadow: 0px 10px 3px #d8d8d8; }
+    font-size: 1.5rem; }
 
 /* Inicio de grillas */
 .gridBoxMe {
@@ -1425,8 +1433,10 @@ header {
   text-decoration: none;
   padding: 8px 26px !important;
   border-radius: 15px;
-  font-size: 1rem;
-  color: white; }
+  font-size: 0.8rem;
+  color: white;
+  text-align: center;
+  font-weight: 300; }
 
 .bgButton:hover {
   background-color: #405360;
@@ -1434,7 +1444,7 @@ header {
 
 @media only screen and (min-width: 1200px) {
   .bgButton {
-    font-size: 1.3rem; } }
+    font-size: 1.2rem; } }
 
 /*----------ANIMACIONES----------*/
 /* Icon Grow Rotate */
