@@ -3,8 +3,8 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-        justify-content: center;
-     
+    justify-content: center;
+
     .bg-div1 {
         display: flex;
         background-color: $color-404;
@@ -12,11 +12,12 @@
         justify-content: center;
         width: 100%;
         height: 44vh;
+
         img {
             width: 45%;
         }
     }
-    
+
     .bg-div2 {
         background-color: white;
         text-align: center;
@@ -82,9 +83,9 @@
             display: flex;
             width: 50%;
             height: 85vh;
-                
+
             img {
-                 width: 60%;
+                width: 60%;
             }
         }
 
@@ -115,14 +116,14 @@
             height: 86vh;
 
             img {
-                width: 50%; 
+                width: 50%;
             }
         }
 
         .bg-div2 {
             height: 86vh;
         }
-    } 
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -131,13 +132,13 @@
             height: 90vh;
 
             img {
-                width: 40%; 
+                width: 40%;
             }
         }
 
         .bg-div2 {
             height: 90vh;
-        
+
 
             h3 {
                 font-size: 8rem;
@@ -147,5 +148,5 @@
                 font-size: 1.5rem;
             }
         }
-    } 
+    }
 }
