@@ -90,7 +90,7 @@ footer h5 {
   .footerImg {
     width: 3.2vw; }
   .nav120 {
-    width: 120% !important; } }
+    width: 300px !important; } }
 
 /*--------------------ESTILO DE INDEX-------------------*/
 #indexBody {
@@ -170,8 +170,7 @@ footer h5 {
     font-weight: 300; }
   .gridBoxIndex2 a {
     grid-area: boton;
-    justify-self: center;
-    padding: 7px; }
+    justify-self: center; }
 
 /* ----------SECCION 3---------- */
 .gridBoxIndex3 {
@@ -213,8 +212,7 @@ footer h5 {
     text-align: center; }
   .gridBoxIndex3 a {
     grid-area: boton;
-    justify-self: center;
-    padding: 7px; }
+    justify-self: center; }
 
 @media only screen and (min-width: 460px) {
   .bgSection1 div {
@@ -837,8 +835,7 @@ footer h5 {
     text-align: center; }
   .gridBoxServ a {
     grid-area: boton;
-    justify-self: center;
-    padding: 7px; }
+    justify-self: center; }
 
 .gridBoxServ2 {
   display: grid;
@@ -860,8 +857,7 @@ footer h5 {
     text-align: center; }
   .gridBoxServ2 a {
     grid-area: boton;
-    justify-self: center;
-    padding: 7px; }
+    justify-self: center; }
 
 @media only screen and (min-width: 460px) {
   .gridBoxServ {
@@ -1432,7 +1428,7 @@ footer h5 {
 .bgButton {
   background-color: #7DBAA4;
   text-decoration: none;
-  padding: 8px 30px !important;
+  padding: 8px 25px !important;
   border-radius: 15px;
   font-size: 0.8rem;
   color: white;
