@@ -57,9 +57,11 @@ footer h5 {
   .footerImg {
     width: 6.5vw; }
   .footerBg {
-    height: 30vh; }
+    height: 25vh; }
   .footerImgJC {
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  .nav120 {
+    height: 10vh; } }
 
 @media only screen and (min-width: 760px) {
   .footerImg {
@@ -67,7 +69,9 @@ footer h5 {
   .paddingLine {
     padding-right: 2.3rem; }
   .footerImgJC {
-    justify-content: space-evenly; } }
+    justify-content: space-evenly; }
+  .nav120 {
+    height: 10vh; } }
 
 @media only screen and (min-width: 992px) {
   footer h5 {
@@ -521,15 +525,19 @@ footer h5 {
   height: 90vh;
   background-attachment: fixed;
   display: flex;
-  align-content: center;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
   .sectionBg h1 {
-    font-size: 3.3rem;
-    padding-bottom: 30px;
+    font-size: 2.8rem;
     font-weight: 700;
     letter-spacing: 2px; }
+  .sectionBg p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.5px;
+    width: 75vw; }
 
 .section4Me {
   display: flex;
@@ -541,12 +549,14 @@ footer h5 {
   background-color: white; }
   .section4Me h3 {
     padding-bottom: 10px;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 500; }
 
 /* Inicio de grillas */
 .gridBoxMe {
   display: grid;
-  grid-template-areas: 'img' 'titulo' 'parrafo';
+  grid-template-areas: 'img' 'titulo' 'parrafo1' 'parrafo2';
   padding: 50px 20px;
   background-color: #EFF4F8; }
   .gridBoxMe img {
@@ -557,10 +567,17 @@ footer h5 {
   .gridBoxMe h2 {
     grid-area: titulo;
     padding-top: 25px;
-    justify-self: center; }
-  .gridBoxMe p {
-    grid-area: parrafo;
-    padding-top: 10px;
+    justify-self: center;
+    text-align: center; }
+  .gridBoxMe #parrafo1 {
+    grid-area: parrafo1;
+    padding: 5px 0px;
+    justify-self: center;
+    text-align: center;
+    font-weight: 300; }
+  .gridBoxMe #parrafo2 {
+    grid-area: parrafo2;
+    padding: 5px 0px;
     justify-self: center;
     text-align: center;
     font-weight: 300; }
@@ -573,13 +590,13 @@ footer h5 {
   .gridBoxMe2 h2 {
     grid-area: titulo;
     padding-bottom: 5px;
-    font-size: 2rem;
     justify-self: center; }
   .gridBoxMe2 p {
     grid-area: parrafo;
-    padding: 5px 0px 15px;
+    padding: 5px 0px;
     justify-self: center;
-    text-align: center; }
+    text-align: center;
+    font-weight: 300; }
 
 .gridBoxMe3 {
   display: grid;
@@ -590,14 +607,16 @@ footer h5 {
     grid-area: titulo;
     padding-bottom: 10px;
     justify-self: center;
-    font-size: 2rem; }
+    font-size: 1.8rem; }
   .gridBoxMe3 div {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .gridBoxMe3 div img {
-      margin-bottom: 1em;
-      width: 25%; }
+  .gridBoxMe3 img {
+    margin-bottom: 1em;
+    width: 25%; }
+  .gridBoxMe3 p {
+    font-weight: 300; }
   .gridBoxMe3 #div1 {
     grid-area: div1;
     justify-self: center;
@@ -617,45 +636,97 @@ footer h5 {
     width: 70vw;
     text-align: center; }
 
+@media only screen and (min-width: 460px) {
+  .gridBoxMe {
+    padding: 60px 30px 40px; }
+    .gridBoxMe img {
+      width: 90%; }
+    .gridBoxMe h2 {
+      padding-top: 30px; }
+    .gridBoxMe #parrafo1 {
+      padding-top: 15px;
+      font-size: 1.2rem; }
+    .gridBoxMe #parrafo2 {
+      padding-top: 15px;
+      font-size: 1.2rem; } }
+
 @media only screen and (min-width: 600px) {
   .sectionBg {
     background-image: url(../Imagenes/buenos-aires-cuadrado.jpg); }
   .gridBoxMe {
-    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img parrafo parrafo';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridBoxMe img {
-      width: 100%;
+      width: 90%;
       align-self: center; }
-    .gridBoxMe h2 {
-      padding-top: 0px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 1.4rem;
-      text-align: center; }
-    .gridBoxMe p {
-      padding-top: 10px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 0.9rem;
-      text-align: start; }
+    .gridBoxMe #parrafo1 {
+      font-size: 1.3rem; }
+    .gridBoxMe #parrafo2 {
+      font-size: 1.3rem; }
   .gridBoxMe2 {
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridBoxMe2 p {
-      font-size: 1rem;
+      font-size: 1.3rem;
       padding-bottom: 0px; }
   .gridBoxMe3 {
-    grid-template-areas: 'titulo titulo titulo' 'div1 div2 div3';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridBoxMe3 div {
       text-align: center; }
     .gridBoxMe3 h2 {
       padding-bottom: 20px; }
     .gridBoxMe3 h3 {
-      font-size: 1.2rem; }
+      font-size: 1.8rem; }
     .gridBoxMe3 p {
-      font-size: 0.9rem; }
+      font-size: 1.3rem; }
     .gridBoxMe3 img {
-      width: 35%; }
+      width: 30%; }
+    .gridBoxMe3 #div1 {
+      width: 60vw;
+      padding: 20px 5px; }
+    .gridBoxMe3 #div2 {
+      width: 60vw;
+      padding: 20px 5px; }
+    .gridBoxMe3 #div3 {
+      width: 60vw;
+      padding: 20px 5px; }
+  .section4Me h3 {
+    width: 70vw;
+    font-size: 1.8rem; } }
+
+@media only screen and (min-width: 760px) {
+  .sectionBg h1 {
+    font-size: 3rem; }
+  .sectionBg p {
+    font-size: 1.4rem; }
+  .gridBoxMe {
+    grid-template-areas: "titulo titulo titulo titulo titulo" "parrafo1 parrafo1 parrafo1 parrafo1 parrafo1" "parrafo1 parrafo1 parrafo1 parrafo1 parrafo1" "img img img parrafo2 parrafo2" "img img img parrafo2 parrafo2";
+    padding: 5rem 4rem; }
+    .gridBoxMe img {
+      width: 90%; }
+    .gridBoxMe h2 {
+      padding-top: 0px; }
+    .gridBoxMe #parrafo1 {
+      font-size: 1rem;
+      text-align: justify; }
+    .gridBoxMe #parrafo2 {
+      font-size: 1rem;
+      padding-left: 10px;
+      margin-bottom: 0.5rem;
+      text-align: justify; }
+  .gridBoxMe2 {
+    padding: 5rem 4rem; }
+    .gridBoxMe2 h2 {
+      font-size: 1.7rem; }
+    .gridBoxMe2 p {
+      font-size: 1.2rem; }
+  .gridBoxMe3 {
+    grid-template-areas: 'titulo titulo titulo' 'div1 div2 div3';
+    padding: 5rem 2rem; }
+    .gridBoxMe3 h2 {
+      font-size: 1.9rem; }
+    .gridBoxMe3 h3 {
+      font-size: 1.4rem; }
+    .gridBoxMe3 p {
+      font-size: 1rem; }
     .gridBoxMe3 #div1 {
       width: 30vw;
       padding: 20px 5px; }
@@ -664,145 +735,169 @@ footer h5 {
       padding: 20px 5px; }
     .gridBoxMe3 #div3 {
       width: 30vw;
-      padding: 20px 5px; } }
-
-@media only screen and (min-width: 760px) {
-  .sectionBg h1 {
-    font-size: 3.4rem;
-    padding-bottom: 30px; }
-  .gridBoxMe {
-    padding: 70px 30px; }
-    .gridBoxMe h2 {
-      font-size: 1.7rem; }
-    .gridBoxMe p {
-      font-size: 1rem; }
-  .gridBoxMe2 {
-    padding: 70px 30px; }
-    .gridBoxMe2 h2 {
-      font-size: 1.7rem; }
-    .gridBoxMe2 p {
-      font-size: 1.2rem; }
-  .gridBoxMe3 {
-    padding: 70px 30px; }
-    .gridBoxMe3 h3 {
-      font-size: 1.5rem; }
-    .gridBoxMe3 p {
-      font-size: 1.2rem; }
+      padding: 20px 5px; }
   .section4Me {
-    padding: 70px 30px; }
+    padding: 5rem 2rem; }
     .section4Me h3 {
-      font-size: 1.8rem;
-      padding-bottom: 25px; } }
+      font-size: 2rem;
+      padding-bottom: 25px;
+      width: unset; } }
+
+@media only screen and (min-width: 900px) {
+  .gridBoxMe img {
+    width: 85%; }
+  .gridBoxMe h2 {
+    font-size: 1.6rem;
+    padding-top: 0px; }
+  .gridBoxMe #parrafo1 {
+    font-size: 1.15rem; }
+  .gridBoxMe #parrafo2 {
+    font-size: 1.15rem; }
+  .gridBoxMe2 h2 {
+    font-size: 1.6rem;
+    padding-top: 0px; }
+  .gridBoxMe2 p {
+    font-size: 1.3rem; }
+  .gridBoxMe3 h2 {
+    font-size: 1.6rem; }
+  .gridBoxMe3 h3 {
+    font-size: 1.4rem; }
+  .gridBoxMe3 p {
+    font-size: 1.05rem; } }
 
 @media only screen and (min-width: 1000px) {
   .sectionBg {
     background-image: url(../Imagenes/buenos-aires.jpg); }
     .sectionBg h1 {
-      font-size: 4rem;
-      letter-spacing: 4px; }
+      font-size: 3.5rem;
+      letter-spacing: 3px; }
+    .sectionBg p {
+      font-size: 1.7rem;
+      font-weight: 400; }
   .gridBoxMe {
-    padding: 80px 40px; }
-    .gridBoxMe img {
-      width: 90%; }
+    padding: 6rem 5rem; }
     .gridBoxMe h2 {
-      font-size: 1.8rem;
-      align-self: center;
-      padding-top: 10px;
-      width: 55vw; }
-    .gridBoxMe p {
-      font-size: 1.3rem;
-      padding-top: 0px;
-      align-self: center;
-      width: 55vw; }
+      font-size: 1.6rem; }
+    .gridBoxMe #parrafo1 {
+      font-size: 1.25rem; }
+    .gridBoxMe #parrafo2 {
+      font-size: 1.25rem; }
   .gridBoxMe2 {
-    padding: 80px 40px; }
+    padding: 6rem 5rem; }
     .gridBoxMe2 h2 {
       font-size: 2.4rem;
       padding-bottom: 15px; }
   .gridBoxMe3 {
-    padding: 80px 40px; }
+    padding: 6rem 3rem; }
     .gridBoxMe3 img {
-      width: 28.5%; }
-    .gridBoxMe3 h2 {
-      font-size: 2.4rem; }
+      width: 25%; }
     .gridBoxMe3 h3 {
-      font-size: 1.7rem; }
+      font-size: 1.5rem; }
     .gridBoxMe3 p {
-      font-size: 1.3rem; }
+      font-size: 1.1rem; }
   .section4Me h3 {
-    font-size: 2.2rem; } }
+    font-size: 2rem; } }
 
 @media only screen and (min-width: 1200px) {
   .sectionBg h1 {
-    font-size: 3.8rem; }
+    font-size: 3.5rem; }
+  .sectionBg p {
+    font-size: 1.7rem;
+    font-weight: 300; }
   .gridBoxMe {
-    padding: 80px 40px; }
+    grid-template-areas: "titulo titulo titulo titulo titulo" "parrafo1 parrafo1 parrafo1 parrafo1 parrafo1" "parrafo1 parrafo1 parrafo1 parrafo1 parrafo1" "img img parrafo2 parrafo2 parrafo2" "img img parrafo2 parrafo2 parrafo2";
+    padding: 5rem 6rem; }
+    .gridBoxMe img {
+      width: 95%; }
     .gridBoxMe h2 {
-      font-size: 2rem;
+      font-size: 1.7rem;
       padding-top: 20px; }
-    .gridBoxMe p {
-      font-size: 1.6rem; }
+    .gridBoxMe #parrafo1 {
+      font-size: 1.35rem; }
+    .gridBoxMe #parrafo2 {
+      font-size: 1.35rem;
+      padding-left: 1.5rem;
+      margin-top: 1.5rem; }
   .gridBoxMe2 {
-    padding: 80px 40px; }
+    padding: 5rem 6rem; }
     .gridBoxMe2 h2 {
-      font-size: 2.5rem; }
+      font-size: 1.7rem;
+      padding-bottom: 0px; }
     .gridBoxMe2 p {
-      font-size: 1.6rem; }
+      font-size: 1.4rem; }
   .gridBoxMe3 {
-    padding: 80px 40px; }
+    padding: 5rem 5.5rem; }
     .gridBoxMe3 h2 {
-      font-size: 2.3rem; }
+      font-size: 1.9rem; }
     .gridBoxMe3 h3 {
-      font-size: 1.8rem; }
+      font-size: 1.6rem; }
     .gridBoxMe3 p {
-      font-size: 1.3rem; }
-  .section4Me h3 {
-    font-size: 2.8rem; }
-  .section4Me a {
-    font-size: 1.2rem; } }
+      font-size: 1.2rem; }
+    .gridBoxMe3 img {
+      width: 30%; }
+    .gridBoxMe3 #div1 {
+      width: 25vw; }
+    .gridBoxMe3 #div2 {
+      width: 25vw; }
+    .gridBoxMe3 #div3 {
+      width: 25vw; }
+  .section4Me {
+    padding: 5rem 5.5rem; }
+    .section4Me h3 {
+      font-size: 2.1rem; } }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   .sectionBg h1 {
-    font-size: 4rem; }
+    font-size: 3.7rem; }
+  .sectionBg p {
+    font-size: 1.8rem; }
   .gridBoxMe {
-    padding: 90px 50px; }
+    padding: 7rem 10rem; }
     .gridBoxMe h2 {
-      font-size: 2.1rem;
-      width: 58vw;
+      font-size: 1.9rem;
       letter-spacing: 1px;
       padding-left: 40px;
       align-self: center; }
-    .gridBoxMe p {
-      font-size: 1.9rem;
-      align-self: baseline;
-      width: 58vw;
-      padding-left: 40px; }
+    .gridBoxMe img {
+      width: 22vw; }
+    .gridBoxMe #parrafo1 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem; }
+    .gridBoxMe #parrafo2 {
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      margin-top: 0rem; }
   .gridBoxMe2 {
-    padding: 90px 50px; }
+    padding: 7rem 9rem; }
     .gridBoxMe2 h2 {
-      font-size: 2.6rem;
+      font-size: 2rem;
       letter-spacing: 1px;
       align-self: center; }
     .gridBoxMe2 p {
-      font-size: 1.9rem;
+      font-size: 1.5rem;
       align-self: baseline; }
-  .gridBoxMe3 {
-    padding: 90px 50px; }
-    .gridBoxMe3 img {
-      width: 25%; }
-    .gridBoxMe3 h2 {
-      font-size: 2.6rem; }
-    .gridBoxMe3 h3 {
-      font-size: 2rem; }
-    .gridBoxMe3 p {
-      font-size: 1.5rem; }
+  .gridBoxMe3 img {
+    width: 30%; }
+  .gridBoxMe3 h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1px; }
+  .gridBoxMe3 h3 {
+    font-size: 1.9rem;
+    letter-spacing: 1px; }
+  .gridBoxMe3 p {
+    font-size: 1.2rem;
+    letter-spacing: 1.2px; }
+  .gridBoxMe3 #div1 {
+    width: 22.5vw; }
+  .gridBoxMe3 #div2 {
+    width: 22.5vw; }
+  .gridBoxMe3 #div3 {
+    width: 22.5vw; }
   .section4Me {
-    padding: 90px 50px; }
+    padding: 7rem 6rem; }
     .section4Me h3 {
-      font-size: 3.3rem;
-      padding-bottom: 30px; }
-    .section4Me a {
-      font-size: 1.6rem; } }
+      font-size: 2.8rem;
+      padding-bottom: 30px; } }
 
 /*----------------ESTILO DE SERVICIOS--------------*/
 #serviciosBody {
