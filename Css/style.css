@@ -6,8 +6,7 @@ header {
 
 .navbar {
   padding-top: 0;
-  padding-bottom: 0;
-  height: 10vh; }
+  padding-bottom: 0; }
 
 .navbar-brand {
   padding-bottom: 0;
@@ -52,7 +51,7 @@ footer h5 {
 
 @media only screen and (min-width: 400px) {
   .nav120 {
-    height: 10vh; } }
+    height: 9vh; } }
 
 @media only screen and (min-width: 600px) and (max-width: 759px) {
   .footerImg {
