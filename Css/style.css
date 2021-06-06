@@ -19,6 +19,9 @@ header {
   padding-left: 7px;
   padding-top: 5px; }
 
+.nav120 {
+  height: 7.5vh; }
+
 /* FOOTER */
 .footerBg {
   background-color: #e2eaf1;
@@ -46,7 +49,11 @@ footer h5 {
   .w-10 {
     width: 80%; } }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 400px) {
+  .nav120 {
+    height: 10vh; } }
+
+@media only screen and (min-width: 600px) and (max-width: 759px) {
   .footerImg {
     width: 6.5vw; }
   .footerBg {
@@ -58,7 +65,9 @@ footer h5 {
   .footerImg {
     width: 5.5vw; }
   .paddingLine {
-    padding-right: 2.3rem; } }
+    padding-right: 2.3rem; }
+  .footerImgJC {
+    justify-content: space-evenly; } }
 
 @media only screen and (min-width: 992px) {
   footer h5 {
@@ -90,7 +99,7 @@ footer h5 {
   .footerImg {
     width: 3.2vw; }
   .nav120 {
-    width: 300px !important; } }
+    height: 13vh; } }
 
 /*--------------------ESTILO DE INDEX-------------------*/
 #indexBody {
