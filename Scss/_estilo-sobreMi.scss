@@ -23,7 +23,7 @@
 
 	p {
 		font-size: 1.2rem;
-		font-weight: 300;
+		font-weight: 400;
 		text-align: center;
 		letter-spacing: 1.5px;
 		width: 75vw;
@@ -187,7 +187,20 @@
 		}
 
 		#parrafo2 {
-			padding-top: 15px;
+			font-size: 1.2rem;
+		}
+	}
+
+	.gridBoxMe2 {
+		padding: 60px 30px 40px;
+
+		p {
+			font-size: 1.2rem;
+		}
+	}
+
+	.gridBoxMe3 {
+		p {
 			font-size: 1.2rem;
 		}
 	}
@@ -329,10 +342,6 @@
 							'div1 div2 div3';
 		padding: 5rem 2rem;
 
-		h2 {
-			font-size: 1.9rem;
-		}
-
 		h3 {
 			font-size: 1.4rem;
 		}
@@ -417,12 +426,12 @@
 		background-image: url(../Imagenes/buenos-aires.jpg);
 
 		h1 {
-			font-size: 3.5rem;
+			font-size: 3.2rem;
 			letter-spacing: 3px;
 		}
 
 		p {
-			font-size: 1.7rem;
+			font-size: 1.5rem;
 			font-weight: 400;
 		}
 	}
@@ -431,7 +440,7 @@
 		padding: 6rem 5rem;
 
 		h2 {
-			font-size: 1.6rem; 
+			font-size: 1.8rem; 
 		}
 
 		#parrafo1 {
@@ -447,7 +456,7 @@
 		padding: 6rem 5rem;
 
 		h2 {
-			font-size: 2.4rem;
+			font-size: 1.8rem;
 			padding-bottom: 15px;
 		}
 	}
@@ -459,6 +468,10 @@
 			width: 25%;
 		}
 
+		h2 {
+			font-size: 1.8rem;
+		}
+
 		h3 {
 			font-size: 1.5rem;
 		}
@@ -468,8 +481,10 @@
 		}
 	}
 
-	.section4Me h3 {
+	.section4Me {
+		h3 {
 		font-size: 2rem;
+		}
 	}
 }
 
@@ -577,7 +592,7 @@
 	}
 
 	.gridBoxMe {
-		padding: 7rem 10rem;
+		padding: 4rem 10rem 6rem;
 
 		h2 {
 			font-size: 1.9rem;

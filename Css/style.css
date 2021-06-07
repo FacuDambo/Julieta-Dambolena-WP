@@ -127,7 +127,7 @@ footer h5 {
     padding: 10px 0px;
     text-align: center;
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.5px; }
   .bgSection1 div {
     display: flex;
@@ -245,21 +245,20 @@ footer h5 {
   .gridBoxIndex2 {
     padding: 60px 30px 40px; }
     .gridBoxIndex2 img {
-      width: 95%; }
+      width: 90%; }
     .gridBoxIndex2 h2 {
-      padding-top: 30px;
-      font-size: 1.8rem; }
+      padding-top: 30px; }
     .gridBoxIndex2 p {
       padding-top: 15px;
       font-size: 1.2rem; }
   .gridBoxIndex3 {
     padding: 50px 30px 20px; }
     .gridBoxIndex3 h2 {
-      font-size: 2.3rem; }
+      font-size: 2rem; }
     .gridBoxIndex3 h3 {
       font-size: 1.7rem; }
     .gridBoxIndex3 p {
-      font-size: 1.3rem; } }
+      font-size: 1.2rem; } }
 
 @media only screen and (min-width: 600px) {
   .bgSection1 {
@@ -534,7 +533,7 @@ footer h5 {
     letter-spacing: 2px; }
   .sectionBg p {
     font-size: 1.2rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     letter-spacing: 1.5px;
     width: 75vw; }
@@ -647,8 +646,13 @@ footer h5 {
       padding-top: 15px;
       font-size: 1.2rem; }
     .gridBoxMe #parrafo2 {
-      padding-top: 15px;
-      font-size: 1.2rem; } }
+      font-size: 1.2rem; }
+  .gridBoxMe2 {
+    padding: 60px 30px 40px; }
+    .gridBoxMe2 p {
+      font-size: 1.2rem; }
+  .gridBoxMe3 p {
+    font-size: 1.2rem; } }
 
 @media only screen and (min-width: 600px) {
   .sectionBg {
@@ -721,8 +725,6 @@ footer h5 {
   .gridBoxMe3 {
     grid-template-areas: 'titulo titulo titulo' 'div1 div2 div3';
     padding: 5rem 2rem; }
-    .gridBoxMe3 h2 {
-      font-size: 1.9rem; }
     .gridBoxMe3 h3 {
       font-size: 1.4rem; }
     .gridBoxMe3 p {
@@ -769,15 +771,15 @@ footer h5 {
   .sectionBg {
     background-image: url(../Imagenes/buenos-aires.jpg); }
     .sectionBg h1 {
-      font-size: 3.5rem;
+      font-size: 3.2rem;
       letter-spacing: 3px; }
     .sectionBg p {
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       font-weight: 400; }
   .gridBoxMe {
     padding: 6rem 5rem; }
     .gridBoxMe h2 {
-      font-size: 1.6rem; }
+      font-size: 1.8rem; }
     .gridBoxMe #parrafo1 {
       font-size: 1.25rem; }
     .gridBoxMe #parrafo2 {
@@ -785,12 +787,14 @@ footer h5 {
   .gridBoxMe2 {
     padding: 6rem 5rem; }
     .gridBoxMe2 h2 {
-      font-size: 2.4rem;
+      font-size: 1.8rem;
       padding-bottom: 15px; }
   .gridBoxMe3 {
     padding: 6rem 3rem; }
     .gridBoxMe3 img {
       width: 25%; }
+    .gridBoxMe3 h2 {
+      font-size: 1.8rem; }
     .gridBoxMe3 h3 {
       font-size: 1.5rem; }
     .gridBoxMe3 p {
@@ -852,7 +856,7 @@ footer h5 {
   .sectionBg p {
     font-size: 1.8rem; }
   .gridBoxMe {
-    padding: 7rem 10rem; }
+    padding: 4rem 10rem 6rem; }
     .gridBoxMe h2 {
       font-size: 1.9rem;
       letter-spacing: 1px;
@@ -910,14 +914,33 @@ footer h5 {
   height: 90vh;
   background-attachment: fixed;
   display: flex;
-  align-content: center;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
   .servBg h1 {
-    font-size: 3.3rem;
-    padding-bottom: 30px;
+    font-size: 2.8rem;
+    font-weight: 700;
     letter-spacing: 2px; }
+  .servBg p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.5px;
+    width: 75vw; }
+
+.serv4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+  text-align: center;
+  justify-content: space-between;
+  background-color: white; }
+  .serv4 h3 {
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 500; }
 
 .gridBoxServ {
   display: grid;
@@ -931,12 +954,12 @@ footer h5 {
   .gridBoxServ h2 {
     grid-area: titulo;
     padding-top: 25px;
-    justify-self: center;
     text-align: center; }
   .gridBoxServ p {
     grid-area: parrafo;
-    padding: 10px 0px;
-    text-align: center; }
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300; }
   .gridBoxServ a {
     grid-area: boton;
     justify-self: center; }
@@ -953,12 +976,12 @@ footer h5 {
   .gridBoxServ2 h2 {
     grid-area: titulo;
     padding-top: 25px;
-    justify-self: center;
     text-align: center; }
   .gridBoxServ2 p {
     grid-area: parrafo;
-    padding: 10px 0px;
-    text-align: center; }
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300; }
   .gridBoxServ2 a {
     grid-area: boton;
     justify-self: center; }
@@ -967,20 +990,18 @@ footer h5 {
   .gridBoxServ {
     padding: 60px 30px 40px; }
     .gridBoxServ img {
-      width: 100%; }
+      width: 90%; }
     .gridBoxServ h2 {
-      padding-top: 30px;
-      font-size: 1.8rem; }
+      padding-top: 30px; }
     .gridBoxServ p {
       padding-top: 15px;
       font-size: 1.2rem; }
   .gridBoxServ2 {
     padding: 60px 30px 40px; }
     .gridBoxServ2 img {
-      width: 100%; }
+      width: 90%; }
     .gridBoxServ2 h2 {
-      padding-top: 30px;
-      font-size: 1.8rem; }
+      padding-top: 30px; }
     .gridBoxServ2 p {
       padding-top: 15px;
       font-size: 1.2rem; } }
@@ -988,138 +1009,159 @@ footer h5 {
 @media only screen and (min-width: 600px) {
   .servBg {
     background-image: url(../Imagenes/new-york-2-cuadrado.jpg); }
-    .servBg h1 {
-      font-size: 2.4rem; }
   .gridBoxServ {
-    grid-template-areas: 'titulo titulo img' 'parrafo parrafo img' 'boton none img';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridBoxServ img {
-      width: 100%;
+      width: 90%;
       align-self: center; }
-    .gridBoxServ h2 {
-      padding-top: 0px;
-      padding-right: 20px;
-      width: 50vw;
-      font-size: 1.4rem; }
     .gridBoxServ p {
-      padding-top: 10px;
-      padding-right: 20px;
-      width: 50vw;
-      font-size: 0.9rem;
-      text-align: start; }
+      font-size: 1.2rem; }
   .gridBoxServ2 {
-    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img none boton';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridBoxServ2 img {
-      width: 100%;
+      width: 90%;
       align-self: center; }
-    .gridBoxServ2 h2 {
-      padding-top: 0px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 1.4rem; }
     .gridBoxServ2 p {
-      padding-top: 10px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 0.9rem;
-      text-align: start; } }
+      font-size: 1.2rem; } }
 
 @media only screen and (min-width: 760px) {
   .servBg h1 {
-    font-size: 3.4rem;
-    padding-bottom: 30px; }
+    font-size: 3rem; }
+  .servBg p {
+    font-size: 1.4rem; }
   .gridBoxServ {
-    padding: 70px 30px; }
+    grid-template-areas: 'titulo titulo img img' 'parrafo parrafo img img' 'boton boton img img';
+    padding: 5rem 4rem; }
     .gridBoxServ h2 {
-      font-size: 1.7rem; }
+      padding-top: 0px;
+      padding-right: 10px;
+      font-size: 1.3rem;
+      text-align: start; }
     .gridBoxServ p {
-      font-size: 1rem;
-      padding: 5px 20px 0px 0px; }
+      padding-top: 10px;
+      padding-right: 10px;
+      font-size: 0.9rem;
+      text-align: start; }
     .gridBoxServ a {
-      align-self: baseline; }
+      align-self: baseline;
+      justify-self: baseline; }
   .gridBoxServ2 {
-    padding: 70px 30px; }
+    grid-template-areas: 'img img titulo titulo' 'img img parrafo parrafo' 'img img boton boton';
+    padding: 5rem 4rem; }
     .gridBoxServ2 h2 {
-      font-size: 1.7rem; }
+      padding-top: 0px;
+      padding-left: 10px;
+      font-size: 1.3rem;
+      text-align: start; }
     .gridBoxServ2 p {
-      font-size: 1rem;
-      padding: 5px 0px 0px 20px; }
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 0.9rem;
+      text-align: start; }
     .gridBoxServ2 a {
-      align-self: baseline; } }
+      align-self: baseline;
+      justify-self: end; }
+  .serv4 {
+    padding: 5rem 2rem; }
+    .serv4 h3 {
+      padding-bottom: 25px;
+      width: unset; } }
 
 @media only screen and (min-width: 1000px) {
   .servBg {
     background-image: url(../Imagenes/new-york-2.jpg); }
     .servBg h1 {
-      font-size: 4rem;
-      letter-spacing: 4px; }
+      font-size: 3.2rem;
+      letter-spacing: 3px; }
+    .servBg p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      width: unset; }
   .gridBoxServ {
-    padding: 80px 40px; }
+    padding: 6rem 5rem; }
     .gridBoxServ h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       align-self: center;
-      padding-top: 10px;
-      width: 55vw; }
+      padding-top: 10px; }
     .gridBoxServ p {
-      font-size: 1.3rem;
-      padding: 5px 20px 0px 0px;
-      align-self: center;
-      width: 55vw; }
+      font-size: 1.1rem;
+      padding: 5px 10px 0px 0px;
+      align-self: center; }
   .gridBoxServ2 {
-    padding: 80px 40px; }
+    padding: 6rem 5rem; }
     .gridBoxServ2 h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       align-self: center;
-      padding-top: 10px;
-      width: 55vw; }
+      padding-top: 10px; }
     .gridBoxServ2 p {
-      font-size: 1.3rem;
-      padding: 5px 0px 0px 20px;
-      align-self: center;
-      width: 55vw; } }
+      font-size: 1.1rem;
+      padding: 5px 0px 0px 10px;
+      align-self: center; }
+  .serv4 {
+    padding: 5rem 2rem; }
+    .serv4 h3 {
+      padding-bottom: 25px;
+      width: unset; } }
 
 @media only screen and (min-width: 1200px) {
   .servBg h1 {
-    font-size: 3.8rem; }
+    font-size: 3.5rem; }
+  .servBg p {
+    font-size: 1.7rem;
+    font-weight: 300; }
   .gridBoxServ {
-    padding: 80px 40px; }
+    padding: 5rem 6rem; }
     .gridBoxServ h2 {
-      font-size: 2rem; }
+      font-size: 1.6rem; }
     .gridBoxServ p {
-      font-size: 1.5rem; }
+      font-size: 1.2rem; }
   .gridBoxServ2 {
-    padding: 80px 40px; }
+    padding: 5rem 6rem; }
     .gridBoxServ2 h2 {
-      font-size: 2rem; }
+      font-size: 1.6rem; }
     .gridBoxServ2 p {
-      font-size: 1.5rem; } }
+      font-size: 1.2rem; }
+  .serv4 {
+    padding: 5rem 2rem; }
+    .serv4 h3 {
+      font-size: 1.8rem; } }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   .servBg h1 {
-    font-size: 4rem; }
+    font-size: 3.7rem; }
+  .servBg p {
+    font-size: 1.8rem; }
   .gridBoxServ {
-    padding: 90px 50px; }
+    padding: 7rem 8rem; }
+    .gridBoxServ img {
+      width: 80%; }
     .gridBoxServ h2 {
-      font-size: 2.3rem;
-      width: 58vw;
-      letter-spacing: 2px;
-      padding-right: 40px; }
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      text-align: start;
+      margin-left: 3rem; }
     .gridBoxServ p {
-      font-size: 1.8rem;
-      width: 58vw;
-      padding-right: 40px; }
+      font-size: 1.3rem;
+      letter-spacing: 1.2px;
+      margin-left: 3rem; }
+    .gridBoxServ a {
+      margin-left: 3rem; }
   .gridBoxServ2 {
-    padding: 90px 50px; }
+    padding: 7rem 8rem; }
+    .gridBoxServ2 img {
+      width: 80%; }
     .gridBoxServ2 h2 {
-      font-size: 2.3rem;
-      width: 58vw;
-      letter-spacing: 2px;
-      padding-left: 40px; }
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      text-align: start;
+      margin-right: 3rem; }
     .gridBoxServ2 p {
-      font-size: 1.8rem;
-      width: 58vw;
-      padding-left: 40px; } }
+      font-size: 1.3rem;
+      letter-spacing: 1.2px;
+      margin-right: 3rem; }
+    .gridBoxServ2 a {
+      margin-right: 3rem;
+      margin-bottom: 3rem; } }
 
 /*--------------------ESTILO DE PORTFOLIO----------------*/
 #portfolioBody {
