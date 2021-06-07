@@ -182,8 +182,7 @@ footer h5 {
     text-align: center;
     font-weight: 300; }
   .gridBoxIndex2 a {
-    grid-area: boton;
-    justify-self: center; }
+    grid-area: boton; }
 
 /* ----------SECCION 3---------- */
 .gridBoxIndex3 {
@@ -224,8 +223,7 @@ footer h5 {
     width: 70vw;
     text-align: center; }
   .gridBoxIndex3 a {
-    grid-area: boton;
-    justify-self: center; }
+    grid-area: boton; }
 
 @media only screen and (min-width: 460px) {
   .bgSection1 div {
@@ -961,8 +959,7 @@ footer h5 {
     text-align: center;
     font-weight: 300; }
   .gridBoxServ a {
-    grid-area: boton;
-    justify-self: center; }
+    grid-area: boton; }
 
 .gridBoxServ2 {
   display: grid;
@@ -983,8 +980,7 @@ footer h5 {
     text-align: center;
     font-weight: 300; }
   .gridBoxServ2 a {
-    grid-area: boton;
-    justify-self: center; }
+    grid-area: boton; }
 
 @media only screen and (min-width: 460px) {
   .gridBoxServ {
@@ -1579,7 +1575,8 @@ footer h5 {
   font-size: 0.8rem;
   color: white;
   text-align: center;
-  font-weight: 300; }
+  font-weight: 300;
+  justify-self: center; }
 
 .bgButton:hover {
   background-color: #405360;
