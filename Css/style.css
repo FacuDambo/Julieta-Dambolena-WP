@@ -156,9 +156,9 @@ footer h5 {
     text-align: center; }
   .gridBoxIndex p {
     grid-area: parrafo;
-    padding-top: 10px;
+    padding: 10px;
     justify-self: center;
-    text-align: center;
+    text-align: justify;
     font-weight: 300; }
 
 /* ----------SECCION 2---------- */
@@ -178,8 +178,8 @@ footer h5 {
     text-align: center; }
   .gridBoxIndex2 p {
     grid-area: parrafo;
-    padding: 10px 0px;
-    text-align: center;
+    padding: 10px;
+    text-align: justify;
     font-weight: 300; }
   .gridBoxIndex2 a {
     grid-area: boton; }
@@ -344,8 +344,7 @@ footer h5 {
       width: 50vw;
       font-size: 1.3rem; }
     .gridBoxIndex2 p {
-      padding-top: 10px;
-      padding-right: 10px;
+      padding: 10px 10px 0px 0px;
       width: 50vw;
       font-size: 0.9rem;
       text-align: start; }
@@ -568,15 +567,15 @@ footer h5 {
     text-align: center; }
   .gridBoxMe #parrafo1 {
     grid-area: parrafo1;
-    padding: 5px 0px;
+    padding: 10px 10px 0px;
     justify-self: center;
-    text-align: center;
+    text-align: justify;
     font-weight: 300; }
   .gridBoxMe #parrafo2 {
     grid-area: parrafo2;
-    padding: 5px 0px;
+    padding: 10px 10px 0px;
     justify-self: center;
-    text-align: center;
+    text-align: justify;
     font-weight: 300; }
 
 .gridBoxMe2 {
@@ -590,9 +589,9 @@ footer h5 {
     justify-self: center; }
   .gridBoxMe2 p {
     grid-area: parrafo;
-    padding: 5px 0px;
+    padding: 10px 10px 0px;
     justify-self: center;
-    text-align: center;
+    text-align: justify;
     font-weight: 300; }
 
 .gridBoxMe3 {
@@ -955,8 +954,8 @@ footer h5 {
     text-align: center; }
   .gridBoxServ p {
     grid-area: parrafo;
-    padding-top: 10px;
-    text-align: center;
+    padding: 10px 10px 0px;
+    text-align: justify;
     font-weight: 300; }
 
 .gridBoxServ2 {
@@ -974,8 +973,8 @@ footer h5 {
     text-align: center; }
   .gridBoxServ2 p {
     grid-area: parrafo;
-    padding-top: 10px;
-    text-align: center;
+    padding: 10px 10px 0px;
+    text-align: justify;
     font-weight: 300; }
 
 @media only screen and (min-width: 460px) {
@@ -1030,8 +1029,7 @@ footer h5 {
       font-size: 1.3rem;
       text-align: start; }
     .gridBoxServ p {
-      padding-top: 10px;
-      padding-right: 10px;
+      padding: 10px 10px 0px 0px;
       font-size: 0.9rem;
       text-align: start; }
   .gridBoxServ2 {
@@ -1043,8 +1041,7 @@ footer h5 {
       font-size: 1.3rem;
       text-align: start; }
     .gridBoxServ2 p {
-      padding-top: 10px;
-      padding-left: 10px;
+      padding: 10px 0px 0px 10px;
       font-size: 0.9rem;
       text-align: start; }
   .serv4 {
@@ -1130,8 +1127,6 @@ footer h5 {
       font-size: 1.3rem;
       letter-spacing: 1.2px;
       margin-left: 3rem; }
-    .gridBoxServ a {
-      margin-left: 3rem; }
   .gridBoxServ2 {
     padding: 7rem 8rem; }
     .gridBoxServ2 img {
@@ -1144,10 +1139,7 @@ footer h5 {
     .gridBoxServ2 p {
       font-size: 1.3rem;
       letter-spacing: 1.2px;
-      margin-right: 3rem; }
-    .gridBoxServ2 a {
-      margin-right: 3rem;
-      margin-bottom: 3rem; } }
+      margin-right: 3rem; } }
 
 /*--------------------ESTILO DE PORTFOLIO----------------*/
 #portfolioBody {
@@ -1159,7 +1151,6 @@ footer h5 {
   height: 90vh;
   background-attachment: fixed;
   display: flex;
-  align-content: center;
   align-items: center;
   justify-content: center;
   flex-direction: column; }
@@ -1167,20 +1158,6 @@ footer h5 {
     font-size: 3.3rem;
     padding-bottom: 30px;
     letter-spacing: 2px; }
-
-.portButton {
-  text-align: center;
-  text-decoration: none;
-  background-color: #7DBAA4;
-  padding: 8px 25px !important;
-  border-radius: 15px;
-  font-size: 1rem;
-  font-weight: 300;
-  color: white; }
-
-.portButton:hover {
-  background-color: #405360;
-  color: white; }
 
 .gridPort1 {
   display: grid;
@@ -1198,12 +1175,12 @@ footer h5 {
     text-align: center; }
   .gridPort1 p {
     grid-area: parrafo;
-    padding: 10px 0px;
-    text-align: center; }
+    padding: 10px 10px 0px;
+    text-align: justify;
+    font-weight: 300; }
   .gridPort1 a {
     grid-area: boton;
-    justify-self: center;
-    padding: 7px; }
+    justify-self: center; }
 
 .gridPort2 {
   display: grid;
@@ -1221,8 +1198,9 @@ footer h5 {
     text-align: center; }
   .gridPort2 p {
     grid-area: parrafo;
-    padding: 10px 0px;
-    text-align: center; }
+    padding: 10px 10px 0px;
+    text-align: justify;
+    font-weight: 300; }
   .gridPort2 a {
     grid-area: boton;
     justify-self: center;
@@ -1232,20 +1210,18 @@ footer h5 {
   .gridPort1 {
     padding: 60px 30px 40px; }
     .gridPort1 img {
-      width: 100%; }
+      width: 90%; }
     .gridPort1 h2 {
-      padding-top: 30px;
-      font-size: 1.8rem; }
+      padding-top: 30px; }
     .gridPort1 p {
       padding-top: 15px;
       font-size: 1.2rem; }
   .gridPort2 {
     padding: 60px 30px 40px; }
     .gridPort2 img {
-      width: 100%; }
+      width: 90%; }
     .gridPort2 h2 {
-      padding-top: 30px;
-      font-size: 1.8rem; }
+      padding-top: 30px; }
     .gridPort2 p {
       padding-top: 15px;
       font-size: 1.2rem; } }
@@ -1253,138 +1229,137 @@ footer h5 {
 @media only screen and (min-width: 600px) {
   .portBg {
     background-image: url(../Imagenes/sydney2.jpg); }
-    .portBg h1 {
-      font-size: 2.4rem; }
   .gridPort1 {
-    grid-template-areas: 'titulo titulo img' 'parrafo parrafo img' 'boton none img';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridPort1 img {
-      width: 100%;
+      width: 90%;
       align-self: center; }
-    .gridPort1 h2 {
-      padding-top: 0px;
-      padding-right: 20px;
-      width: 50vw;
-      font-size: 1.4rem; }
     .gridPort1 p {
-      padding-top: 10px;
-      padding-right: 20px;
-      width: 50vw;
-      font-size: 0.9rem;
-      text-align: start; }
+      font-size: 1.2rem; }
   .gridPort2 {
-    grid-template-areas: 'img titulo titulo' 'img parrafo parrafo' 'img none boton';
-    padding: 60px 20px; }
+    padding: 4rem 5rem; }
     .gridPort2 img {
-      width: 100%;
+      width: 90%;
       align-self: center; }
-    .gridPort2 h2 {
-      padding-top: 0px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 1.4rem; }
     .gridPort2 p {
-      padding-top: 10px;
-      padding-left: 20px;
-      width: 50vw;
-      font-size: 0.9rem;
-      text-align: start; } }
+      font-size: 1.2rem; } }
 
 @media only screen and (min-width: 760px) {
   .portBg h1 {
-    font-size: 3.4rem;
-    padding-bottom: 30px; }
+    font-size: 3rem; }
   .gridPort1 {
-    padding: 70px 30px; }
+    grid-template-areas: 'titulo titulo img img' 'parrafo parrafo img img' 'boton boton img img';
+    padding: 5rem 4rem; }
     .gridPort1 h2 {
-      font-size: 1.7rem; }
+      padding-top: 0px;
+      padding-left: 0px;
+      font-size: 1.3rem;
+      text-align: start;
+      justify-self: unset;
+      margin-bottom: 0px; }
     .gridPort1 p {
-      font-size: 1rem;
-      padding: 5px 20px 0px 0px; }
+      padding: 10px 10px 0px 0px;
+      font-size: 0.9rem;
+      text-align: start; }
     .gridPort1 a {
-      align-self: baseline; }
+      align-self: baseline;
+      justify-self: baseline; }
   .gridPort2 {
-    padding: 70px 30px; }
+    grid-template-areas: 'img img titulo titulo' 'img img parrafo parrafo' 'img img boton boton';
+    padding: 5rem 4rem; }
     .gridPort2 h2 {
-      font-size: 1.7rem; }
+      padding-top: 0px;
+      padding-left: 10px;
+      font-size: 1.3rem;
+      text-align: start;
+      justify-self: unset;
+      margin-bottom: 0px; }
     .gridPort2 p {
-      font-size: 1rem;
-      padding: 5px 0px 0px 20px; }
+      padding: 10px 0px 0px 10px;
+      font-size: 0.9rem;
+      text-align: start; }
     .gridPort2 a {
-      align-self: baseline; } }
+      align-self: baseline;
+      justify-self: end; } }
 
 @media only screen and (min-width: 1000px) {
   .portBg {
     background-image: url(../Imagenes/sydney1.jpg); }
     .portBg h1 {
-      font-size: 4rem;
-      letter-spacing: 4px; }
+      font-size: 3.2rem;
+      letter-spacing: 3px; }
   .gridPort1 {
-    padding: 80px 40px; }
+    padding: 6rem 5rem; }
     .gridPort1 h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       align-self: center;
       padding-top: 10px;
-      width: 55vw; }
+      margin-bottom: 0.5rem; }
     .gridPort1 p {
-      font-size: 1.3rem;
-      padding: 5px 20px 0px 0px;
-      align-self: center;
-      width: 55vw; }
+      font-size: 1.1rem;
+      padding: 5px 10px 0px 0px;
+      align-self: center; }
   .gridPort2 {
-    padding: 80px 40px; }
+    padding: 6rem 5rem; }
     .gridPort2 h2 {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
       align-self: center;
       padding-top: 10px;
-      width: 55vw; }
+      margin-bottom: 0.5rem; }
     .gridPort2 p {
-      font-size: 1.3rem;
-      padding: 5px 0px 0px 20px;
-      align-self: center;
-      width: 55vw; } }
+      font-size: 1.1rem;
+      padding: 5px 0px 0px 10px;
+      align-self: center; } }
 
 @media only screen and (min-width: 1200px) {
   .portBg h1 {
-    font-size: 3.8rem; }
+    font-size: 3.5rem; }
   .gridPort1 {
-    padding: 80px 40px; }
+    padding: 5rem 6rem; }
     .gridPort1 h2 {
-      font-size: 2rem; }
+      font-size: 1.6rem; }
     .gridPort1 p {
-      font-size: 1.5rem; }
+      font-size: 1.2rem; }
   .gridPort2 {
-    padding: 80px 40px; }
+    padding: 5rem 6rem; }
     .gridPort2 h2 {
-      font-size: 2rem; }
+      font-size: 1.6rem; }
     .gridPort2 p {
-      font-size: 1.5rem; } }
+      font-size: 1.2rem; } }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1440px) {
   .portBg h1 {
-    font-size: 4rem; }
+    font-size: 3.7rem; }
   .gridPort1 {
-    padding: 90px 50px; }
+    padding: 7rem 8rem; }
+    .gridPort1 img {
+      width: 85%; }
     .gridPort1 h2 {
-      font-size: 2.3rem;
-      width: 58vw;
-      letter-spacing: 2px;
-      padding-right: 40px; }
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      text-align: start;
+      margin-left: 3rem; }
     .gridPort1 p {
-      font-size: 1.8rem;
-      width: 58vw;
-      padding-right: 40px; }
+      font-size: 1.3rem;
+      letter-spacing: 1.2px;
+      margin-left: 3rem; }
+    .gridPort1 a {
+      margin-left: 3rem; }
   .gridPort2 {
-    padding: 90px 50px; }
+    padding: 7rem 8rem; }
+    .gridPort2 img {
+      width: 85%; }
     .gridPort2 h2 {
-      font-size: 2.3rem;
-      width: 58vw;
-      letter-spacing: 2px;
-      padding-left: 40px; }
+      font-size: 1.9rem;
+      letter-spacing: 1px;
+      text-align: start;
+      margin-right: 3rem; }
     .gridPort2 p {
-      font-size: 1.8rem;
-      width: 58vw;
-      padding-left: 40px; } }
+      font-size: 1.3rem;
+      letter-spacing: 1.2px;
+      margin-right: 3rem; }
+    .gridPort2 a {
+      margin-right: 3rem; } }
 
 /*-------------------ESTILO DE CONTACTO----------------*/
 #contBody {
@@ -1557,7 +1532,7 @@ footer h5 {
   text-decoration: none;
   padding: 8px 25px !important;
   border-radius: 15px;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: white;
   text-align: center;
   font-weight: 300;

@@ -70,8 +70,8 @@
 
 	p {
 		grid-area: parrafo;
-		padding-top: 10px;
-		text-align: center;
+		padding: 10px 10px 0px;
+		text-align: justify;
 		font-weight: 300;
 	}
 }
@@ -99,8 +99,8 @@
 
 	p {
 		grid-area: parrafo;
-		padding-top: 10px;
-		text-align: center;
+		padding:10px 10px 0px;
+		text-align: justify;
 		font-weight: 300;
 	}
 }
@@ -198,8 +198,7 @@
 		}
 
 		p {
-			padding-top: 10px;
-			padding-right: 10px;
+			padding: 10px 10px 0px 0px;
 			font-size: 0.9rem;
 			text-align: start;
 		}
@@ -218,8 +217,7 @@
 		}
 
 		p {
-			padding-top: 10px;
-			padding-left: 10px;
+			padding: 10px 0px 0px 10px;
 			font-size: 0.9rem;
 			text-align: start;
 		}
@@ -258,14 +256,12 @@
 			font-size: 1.5rem;
 			align-self: center;
 			padding-top: 10px;
-
 		}
 
 		p {
 			font-size: 1.1rem;
 			padding: 5px 10px 0px 0px;
 			align-self: center;
-
 		}
 	}
 
@@ -372,10 +368,6 @@
 			letter-spacing: 1.2px;
 			margin-left: 3rem;
 		}
-
-		a {
-			margin-left: 3rem;
-		}
 	}
 
 	.gridBoxServ2 {
@@ -396,11 +388,6 @@
 			font-size: 1.3rem;
 			letter-spacing: 1.2px;
 			margin-right: 3rem;
-		}
-
-		a {
-			margin-right: 3rem;
-			margin-bottom: 3rem;
 		}
 	}
 }
