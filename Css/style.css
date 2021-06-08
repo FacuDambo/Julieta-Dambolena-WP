@@ -942,7 +942,7 @@ footer h5 {
 
 .gridBoxServ {
   display: grid;
-  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  grid-template-areas: 'img' 'titulo' 'parrafo';
   padding: 50px 20px;
   background-color: #EFF4F8; }
   .gridBoxServ img {
@@ -958,12 +958,10 @@ footer h5 {
     padding-top: 10px;
     text-align: center;
     font-weight: 300; }
-  .gridBoxServ a {
-    grid-area: boton; }
 
 .gridBoxServ2 {
   display: grid;
-  grid-template-areas: 'img' 'titulo' 'parrafo' 'boton';
+  grid-template-areas: 'img' 'titulo' 'parrafo';
   padding: 50px 20px;
   background-color: white; }
   .gridBoxServ2 img {
@@ -979,8 +977,6 @@ footer h5 {
     padding-top: 10px;
     text-align: center;
     font-weight: 300; }
-  .gridBoxServ2 a {
-    grid-area: boton; }
 
 @media only screen and (min-width: 460px) {
   .gridBoxServ {
@@ -1026,7 +1022,7 @@ footer h5 {
   .servBg p {
     font-size: 1.4rem; }
   .gridBoxServ {
-    grid-template-areas: 'titulo titulo img img' 'parrafo parrafo img img' 'boton boton img img';
+    grid-template-areas: 'titulo titulo img img' 'parrafo parrafo img img';
     padding: 5rem 4rem; }
     .gridBoxServ h2 {
       padding-top: 0px;
@@ -1038,11 +1034,8 @@ footer h5 {
       padding-right: 10px;
       font-size: 0.9rem;
       text-align: start; }
-    .gridBoxServ a {
-      align-self: baseline;
-      justify-self: baseline; }
   .gridBoxServ2 {
-    grid-template-areas: 'img img titulo titulo' 'img img parrafo parrafo' 'img img boton boton';
+    grid-template-areas: 'img img titulo titulo' 'img img parrafo parrafo';
     padding: 5rem 4rem; }
     .gridBoxServ2 h2 {
       padding-top: 0px;
@@ -1054,9 +1047,6 @@ footer h5 {
       padding-left: 10px;
       font-size: 0.9rem;
       text-align: start; }
-    .gridBoxServ2 a {
-      align-self: baseline;
-      justify-self: end; }
   .serv4 {
     padding: 5rem 2rem; }
     .serv4 h3 {
@@ -1181,21 +1171,16 @@ footer h5 {
 .portButton {
   text-align: center;
   text-decoration: none;
-  background-color: #F1E9E2;
-  padding: 3px 15px !important;
-  border: solid 2px black;
-  border-radius: 10px;
-  font-size: 1.4rem;
-  color: black; }
+  background-color: #7DBAA4;
+  padding: 8px 25px !important;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 300;
+  color: white; }
 
 .portButton:hover {
-  background-color: #e5cecc;
-  color: black;
-  border: solid 2px #4B5C6B; }
-
-#portImg {
-  width: 30px;
-  padding-right: 5px; }
+  background-color: #405360;
+  color: white; }
 
 .gridPort1 {
   display: grid;
@@ -1572,7 +1557,7 @@ footer h5 {
   text-decoration: none;
   padding: 8px 25px !important;
   border-radius: 15px;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: white;
   text-align: center;
   font-weight: 300;

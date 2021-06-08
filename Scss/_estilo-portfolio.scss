@@ -25,23 +25,17 @@
 .portButton {
 	text-align: center;
 	text-decoration: none;
-	background-color: #F1E9E2;
-	padding: 3px 15px !important;
-	border: solid 2px black;
-	border-radius: 10px;
-	font-size: 1.4rem;
-	color: black;
+	background-color: $color-404;
+	padding: 8px 25px !important;
+	border-radius: 15px;
+	font-size: 1rem;
+	font-weight: 300;
+	color: white;
 }
 
 .portButton:hover {
-	background-color: #e5cecc;
-	color: black;
-	border: solid 2px #4B5C6B;
-}
-
-#portImg {
-	width: 30px;
-	padding-right: 5px;
+	background-color: #405360;
+	color: white;
 }
 
 .gridPort1 {

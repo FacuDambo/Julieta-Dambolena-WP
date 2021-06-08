@@ -51,8 +51,7 @@
 	display: grid;
 	grid-template-areas: 'img'
 		'titulo'
-		'parrafo'
-		'boton';
+		'parrafo';
 	padding: 50px 20px;
 	background-color: $fondo-claro;
 
@@ -75,18 +74,13 @@
 		text-align: center;
 		font-weight: 300;
 	}
-
-	a {
-		grid-area: boton;
-	}
 }
 
 .gridBoxServ2 {
 	display: grid;
 	grid-template-areas: 'img'
 		'titulo'
-		'parrafo'
-		'boton';
+		'parrafo';
 	padding: 50px 20px;
 	background-color: white;
 
@@ -108,10 +102,6 @@
 		padding-top: 10px;
 		text-align: center;
 		font-weight: 300;
-	}
-
-	a {
-		grid-area: boton;
 	}
 }
 
@@ -197,8 +187,7 @@
 
 	.gridBoxServ {
 		grid-template-areas: 'titulo titulo img img'
-			'parrafo parrafo img img'
-			'boton boton img img';
+			'parrafo parrafo img img';
 		padding: 5rem 4rem;
 
 		h2 {
@@ -213,18 +202,12 @@
 			padding-right: 10px;
 			font-size: 0.9rem;
 			text-align: start;
-		}
-
-		a {
-			align-self: baseline;
-			justify-self: baseline;
 		}
 	}
 
 	.gridBoxServ2 {
 		grid-template-areas: 'img img titulo titulo'
-			'img img parrafo parrafo'
-			'img img boton boton';
+			'img img parrafo parrafo';
 		padding: 5rem 4rem;
 
 		h2 {
@@ -239,11 +222,6 @@
 			padding-left: 10px;
 			font-size: 0.9rem;
 			text-align: start;
-		}
-
-		a {
-			align-self: baseline;
-			justify-self: end;
 		}
 	}
 
