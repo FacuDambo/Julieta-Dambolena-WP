@@ -16,14 +16,54 @@
     flex-direction: column;
 
     h1 {
-        font-size: 3.3rem;
-        padding-bottom: 30px;
+        font-size: 2.8rem;
+        font-weight: 700;
         letter-spacing: 2px;
+    }
+
+    p {
+        font-size: 1.2rem;
+        font-weight: 400;
+        text-align: center;
+        letter-spacing: 1.5px;
+        width: 75vw;
     }
 }
 
 .bgCont {
     background-color: $fondo-claro;
+}
+
+.btn-primary {
+    background-color: #7DBAA4;
+    border-color: unset;
+    padding: 8px 25px;
+    border: unset;
+    border-radius: 15px;
+    font-weight: 300;
+}
+
+.btn-primary:hover {
+    background-color: #405360;
+    border: unset;
+    border-color: unset;
+}
+
+.btn-primary:focus {
+    background-color: #405360;
+    border: unset;
+    border-color: unset;
+    box-shadow: 0 0 0 0.25rem #7fbaa35e;
+}
+
+.btn-primary:active {
+    background-color: #405360;
+    border: unset;
+    border-color: unset;
+}
+
+.btn-primary:active:focus {
+    box-shadow: 0 0 0 0.25rem #7fbaa35e;
 }
 
 .contPadding {
@@ -33,50 +73,116 @@
 /* Inicio accorderon */
 .preguntas-frecuentes {
     background-color: white;
+    margin-bottom: 0px;
+    border-bottom: solid 1px rgb(240, 240, 240);
+    text-align: center;
+    padding-bottom: 2rem;
+}
 
-    h2 {
-        margin-bottom: 0px;
-        padding: 1.25rem 1.5rem;
-        border-bottom: solid 1px rgb(240, 240, 240);
-        text-align: center;
-    }
+.accordion {
+    padding: 2rem 0rem 3rem;
+    background-color: white;
 }
 
 .accordion-button {
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 1.25rem;
     font-size: 1.1rem;
-    color: #212529;
-    text-align: center;
-    background-color: #fff;
-    border: 0;
-    border-radius: 0;
-    overflow-anchor: none;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease;
 }
 
 .accordion-body {
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 1.25rem;
 }
 
+.accordion-button:not(.collapsed) {
+    color: unset;
+    background-color: $fondo-hr-ft;
+}
 
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem #e2eaf1a8;
+}
 
 /* fin accordeon */
+
+
+
 @media only screen and (min-width:600px) {
     .contBg {
         background-image: url(../Imagenes/toronto-cuadrado.jpg);
     }
 }
 
+@media only screen and (min-width:760px) {
+    .contBg {
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+        }
+    }
+}
+
 @media only screen and (min-width:992px) {
     .contBg {
         background-image: url(../Imagenes/toronto1.jpg);
+
+        h1 {
+            font-size: 3.2rem;
+            letter-spacing: 3px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
     }
 
     .contPadding {
         padding-top: 0px;
     }
+
+    .formPadding {
+        padding: 6rem 5rem !important;
+    }
+
+    .paddingGlobe {
+        padding: 0rem 2rem;
+    }
+
+    .accordion {
+        padding: 4rem 6rem 5rem;
+        background-color: white;
+    }
 }
+
+@media only screen and (min-width: 1200px) {
+	.contBg {
+		h1 {
+			font-size: 3.5rem;
+		}
+
+		p {
+			font-size: 1.7rem;
+			font-weight: 300;
+		}
+	}
+}
+
+@media only screen and (min-width: 1440px) {
+	.sectionBg {
+		h1 {
+		font-size: 3.7rem;
+		}
+		p {
+			font-size: 1.8rem;
+		}
+	}
+}
+

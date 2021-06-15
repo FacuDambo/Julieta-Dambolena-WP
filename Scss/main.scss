@@ -22,9 +22,12 @@ $color-404: #7DBAA4;
 }
 
 .imgShadow {
-	box-shadow: 1.5px 1.5px 2px rgb(124, 124, 124), -1.5px -1.5px 2px rgb(124, 124, 124);
-	border-radius: 5px;
+	box-shadow: 2px 3px #e7e7e7;
 }
+
+.imgShadow2 {
+	box-shadow: 2px 3px #d9dee2;
+} 
 
 .bgButton {
 	background-color: #7DBAA4;
@@ -41,6 +44,26 @@ $color-404: #7DBAA4;
 .bgButton:hover {
 	background-color: #405360;
 	color: white;
+}
+
+@media only screen and (min-width: 760px) {
+	.imgShadow {
+		box-shadow: 8px 8px #e7e7e7;
+	}
+	
+	.imgShadow2 {
+		box-shadow: 8px 8px #d9dee2;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.imgShadow {
+		box-shadow: 10px 10px #e7e7e7;
+	}
+	
+	.imgShadow2 {
+		box-shadow: 10px 10px #d9dee2;
+	}
 }
 
 @media only screen and (min-width: 1200px) {

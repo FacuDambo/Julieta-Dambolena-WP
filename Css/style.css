@@ -591,7 +591,7 @@ footer h5 {
     grid-area: parrafo;
     padding: 10px 10px 0px;
     justify-self: center;
-    text-align: justify;
+    text-align: center;
     font-weight: 300; }
 
 .gridBoxMe3 {
@@ -897,8 +897,8 @@ footer h5 {
   .section4Me {
     padding: 7rem 6rem; }
     .section4Me h3 {
-      font-size: 2.8rem;
-      padding-bottom: 30px; } }
+      font-size: 2.2rem;
+      padding-bottom: 20px; } }
 
 /*----------------ESTILO DE SERVICIOS--------------*/
 #serviciosBody {
@@ -1117,7 +1117,7 @@ footer h5 {
   .gridBoxServ {
     padding: 7rem 8rem; }
     .gridBoxServ img {
-      width: 80%; }
+      width: 85%; }
     .gridBoxServ h2 {
       font-size: 1.9rem;
       letter-spacing: 1px;
@@ -1376,53 +1376,120 @@ footer h5 {
   justify-content: center;
   flex-direction: column; }
   .contBg h1 {
-    font-size: 3.3rem;
-    padding-bottom: 30px;
+    font-size: 2.8rem;
+    font-weight: 700;
     letter-spacing: 2px; }
+  .contBg p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1.5px;
+    width: 75vw; }
 
 .bgCont {
   background-color: #EFF4F8; }
+
+.btn-primary {
+  background-color: #7DBAA4;
+  border-color: unset;
+  padding: 8px 25px;
+  border: unset;
+  border-radius: 15px;
+  font-weight: 300; }
+
+.btn-primary:hover {
+  background-color: #405360;
+  border: unset;
+  border-color: unset; }
+
+.btn-primary:focus {
+  background-color: #405360;
+  border: unset;
+  border-color: unset;
+  box-shadow: 0 0 0 0.25rem #7fbaa35e; }
+
+.btn-primary:active {
+  background-color: #405360;
+  border: unset;
+  border-color: unset; }
+
+.btn-primary:active:focus {
+  box-shadow: 0 0 0 0.25rem #7fbaa35e; }
 
 .contPadding {
   padding-top: 15px; }
 
 /* Inicio accorderon */
 .preguntas-frecuentes {
+  background-color: white;
+  margin-bottom: 0px;
+  border-bottom: solid 1px #f0f0f0;
+  text-align: center;
+  padding-bottom: 2rem; }
+
+.accordion {
+  padding: 2rem 0rem 3rem;
   background-color: white; }
-  .preguntas-frecuentes h2 {
-    margin-bottom: 0px;
-    padding: 1.25rem 1.5rem;
-    border-bottom: solid 1px #f0f0f0;
-    text-align: center; }
 
 .accordion-button {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 1.5rem 4rem;
-  font-size: 1.1rem;
-  color: #212529;
-  text-align: center;
-  background-color: #fff;
-  border: 0;
-  border-radius: 0;
-  overflow-anchor: none;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, border-radius .15s ease; }
+  padding: 1.5rem 1.25rem;
+  font-size: 1.1rem; }
 
 .accordion-body {
-  padding: 1.5rem 4rem; }
+  padding: 1.5rem 1.25rem; }
+
+.accordion-button:not(.collapsed) {
+  color: unset;
+  background-color: #e2eaf1; }
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); }
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 0.25rem #e2eaf1a8; }
 
 /* fin accordeon */
 @media only screen and (min-width: 600px) {
   .contBg {
     background-image: url(../Imagenes/toronto-cuadrado.jpg); } }
 
+@media only screen and (min-width: 760px) {
+  .contBg h1 {
+    font-size: 3rem; }
+  .contBg p {
+    font-size: 1.4rem; } }
+
 @media only screen and (min-width: 992px) {
   .contBg {
     background-image: url(../Imagenes/toronto1.jpg); }
+    .contBg h1 {
+      font-size: 3.2rem;
+      letter-spacing: 3px; }
+    .contBg p {
+      font-size: 1.5rem;
+      font-weight: 400; }
   .contPadding {
-    padding-top: 0px; } }
+    padding-top: 0px; }
+  .formPadding {
+    padding: 6rem 5rem !important; }
+  .paddingGlobe {
+    padding: 0rem 2rem; }
+  .accordion {
+    padding: 4rem 6rem 5rem;
+    background-color: white; } }
+
+@media only screen and (min-width: 1200px) {
+  .contBg h1 {
+    font-size: 3.5rem; }
+  .contBg p {
+    font-size: 1.7rem;
+    font-weight: 300; } }
+
+@media only screen and (min-width: 1440px) {
+  .sectionBg h1 {
+    font-size: 3.7rem; }
+  .sectionBg p {
+    font-size: 1.8rem; } }
 
 .section-404 {
   display: flex;
@@ -1524,8 +1591,10 @@ footer h5 {
   padding: 0; }
 
 .imgShadow {
-  box-shadow: 1.5px 1.5px 2px #7c7c7c, -1.5px -1.5px 2px #7c7c7c;
-  border-radius: 5px; }
+  box-shadow: 2px 3px #e7e7e7; }
+
+.imgShadow2 {
+  box-shadow: 2px 3px #d9dee2; }
 
 .bgButton {
   background-color: #7DBAA4;
@@ -1541,6 +1610,18 @@ footer h5 {
 .bgButton:hover {
   background-color: #405360;
   color: white; }
+
+@media only screen and (min-width: 760px) {
+  .imgShadow {
+    box-shadow: 8px 8px #e7e7e7; }
+  .imgShadow2 {
+    box-shadow: 8px 8px #d9dee2; } }
+
+@media only screen and (min-width: 1000px) {
+  .imgShadow {
+    box-shadow: 10px 10px #e7e7e7; }
+  .imgShadow2 {
+    box-shadow: 10px 10px #d9dee2; } }
 
 @media only screen and (min-width: 1200px) {
   .bgButton {
