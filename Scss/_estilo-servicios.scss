@@ -6,7 +6,7 @@
 }
 
 .servBg {
-	background-image: url(../Imagenes/new-york-3.jpg);
+	background-image: url(../Imagenes/3-ny-MB.jpg);
 	background-size: cover;
 	height: 90vh;
 	background-attachment: fixed;
@@ -23,7 +23,7 @@
 	
 	p {
 		font-size: 1.2rem;
-		font-weight: 400;
+		font-weight: 300;
 		text-align: center;
 		letter-spacing: 1.5px;
 		width: 75vw;
@@ -143,7 +143,7 @@
 
 @media only screen and (min-width: 600px) {
 	.servBg {
-		background-image: url(../Imagenes/new-york-2-cuadrado.jpg);
+		background-image: url(../Imagenes/3-ny-TB.jpg);
 	}
 
 	.gridBoxServ {
@@ -235,7 +235,7 @@
 
 @media only screen and (min-width: 1000px) {
 	.servBg {
-		background-image: url(../Imagenes/new-york-2.jpg);
+		background-image: url(../Imagenes/3-ny-XL.jpg);
 
 		h1 {
 			font-size: 3.2rem;

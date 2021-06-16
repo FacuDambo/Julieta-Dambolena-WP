@@ -111,7 +111,7 @@ footer h5 {
   width: 100%; }
 
 .bgSection1 {
-  background-image: url(../Imagenes/puente-de-londres-vertical.jpg);
+  background-image: url(../Imagenes/1-londres-MB.jpg);
   background-size: cover;
   height: 90vh;
   display: flex;
@@ -127,7 +127,7 @@ footer h5 {
     padding: 10px 0px;
     text-align: center;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1.5px; }
   .bgSection1 div {
     display: flex;
@@ -260,7 +260,7 @@ footer h5 {
 
 @media only screen and (min-width: 600px) {
   .bgSection1 {
-    background-image: url(../Imagenes/puente-de-londres-cuadrado.jpg);
+    background-image: url(../Imagenes/1-londres-TB.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -309,7 +309,6 @@ footer h5 {
 
 @media only screen and (min-width: 760px) {
   .bgSection1 {
-    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
     background-size: cover; }
     .bgSection1 div {
       justify-content: space-evenly;
@@ -374,8 +373,7 @@ footer h5 {
 
 @media only screen and (min-width: 1000px) {
   .bgSection1 {
-    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
-    background-size: cover; }
+    background-image: url(../Imagenes/1-londres-XL.jpg); }
     .bgSection1 div {
       height: 40vh;
       padding: 0rem 5rem; }
@@ -453,17 +451,14 @@ footer h5 {
       width: 25vw; } }
 
 @media only screen and (min-width: 1440px) {
-  .bgSection1 {
-    background-image: url(../Imagenes/puente-de-londres-cortado.jpg);
-    background-size: cover; }
-    .bgSection1 div {
-      padding: 0rem 7rem;
-      height: 50vh; }
-      .bgSection1 div h1 {
-        font-size: 2.6rem;
-        width: 60vw; }
-      .bgSection1 div p {
-        font-size: 1.6rem; }
+  .bgSection1 div {
+    padding: 0rem 7rem;
+    height: 50vh; }
+    .bgSection1 div h1 {
+      font-size: 2.6rem;
+      width: 60vw; }
+    .bgSection1 div p {
+      font-size: 1.6rem; }
   .gridBoxIndex {
     padding: 7rem 8rem; }
     .gridBoxIndex img {
@@ -516,7 +511,7 @@ footer h5 {
   width: 100%; }
 
 .sectionBg {
-  background-image: url(../Imagenes/buenos-aires1.jpg);
+  background-image: url(../Imagenes/2-bs-MB.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -530,7 +525,7 @@ footer h5 {
     letter-spacing: 2px; }
   .sectionBg p {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 1.5px;
     width: 75vw; }
@@ -653,7 +648,7 @@ footer h5 {
 
 @media only screen and (min-width: 600px) {
   .sectionBg {
-    background-image: url(../Imagenes/buenos-aires-cuadrado.jpg); }
+    background-image: url(../Imagenes/2-bs-TB.jpg); }
   .gridBoxMe {
     padding: 4rem 5rem; }
     .gridBoxMe img {
@@ -766,7 +761,7 @@ footer h5 {
 
 @media only screen and (min-width: 1000px) {
   .sectionBg {
-    background-image: url(../Imagenes/buenos-aires.jpg); }
+    background-image: url(../Imagenes/2-bs-XL.jpg); }
     .sectionBg h1 {
       font-size: 3.2rem;
       letter-spacing: 3px; }
@@ -906,7 +901,7 @@ footer h5 {
   width: 100%; }
 
 .servBg {
-  background-image: url(../Imagenes/new-york-3.jpg);
+  background-image: url(../Imagenes/3-ny-MB.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -920,7 +915,7 @@ footer h5 {
     letter-spacing: 2px; }
   .servBg p {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 1.5px;
     width: 75vw; }
@@ -999,7 +994,7 @@ footer h5 {
 
 @media only screen and (min-width: 600px) {
   .servBg {
-    background-image: url(../Imagenes/new-york-2-cuadrado.jpg); }
+    background-image: url(../Imagenes/3-ny-TB.jpg); }
   .gridBoxServ {
     padding: 4rem 5rem; }
     .gridBoxServ img {
@@ -1052,7 +1047,7 @@ footer h5 {
 
 @media only screen and (min-width: 1000px) {
   .servBg {
-    background-image: url(../Imagenes/new-york-2.jpg); }
+    background-image: url(../Imagenes/3-ny-XL.jpg); }
     .servBg h1 {
       font-size: 3.2rem;
       letter-spacing: 3px; }
@@ -1146,7 +1141,7 @@ footer h5 {
   background-color: #EFF4F8; }
 
 .portBg {
-  background-image: url(../Imagenes/sydney-cuadrado.jpg);
+  background-image: url(../Imagenes/4-sydney-MB.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -1155,9 +1150,15 @@ footer h5 {
   justify-content: center;
   flex-direction: column; }
   .portBg h1 {
-    font-size: 3.3rem;
-    padding-bottom: 30px;
+    font-size: 2.8rem;
+    font-weight: 700;
     letter-spacing: 2px; }
+  .portBg p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.5px;
+    width: 75vw; }
 
 .gridPort1 {
   display: grid;
@@ -1228,7 +1229,11 @@ footer h5 {
 
 @media only screen and (min-width: 600px) {
   .portBg {
-    background-image: url(../Imagenes/sydney2.jpg); }
+    background-image: url(../Imagenes/4-sydney-TB.jpg); }
+    .portBg h1 {
+      font-size: 3rem; }
+    .portBg p {
+      font-size: 1.4rem; }
   .gridPort1 {
     padding: 4rem 5rem; }
     .gridPort1 img {
@@ -1284,10 +1289,14 @@ footer h5 {
 
 @media only screen and (min-width: 1000px) {
   .portBg {
-    background-image: url(../Imagenes/sydney1.jpg); }
+    background-image: url(../Imagenes/4-sydney-XL.jpg); }
     .portBg h1 {
       font-size: 3.2rem;
       letter-spacing: 3px; }
+    .portBg p {
+      font-size: 1.5rem;
+      font-weight: 400;
+      width: unset; }
   .gridPort1 {
     padding: 6rem 5rem; }
     .gridPort1 h2 {
@@ -1314,6 +1323,9 @@ footer h5 {
 @media only screen and (min-width: 1200px) {
   .portBg h1 {
     font-size: 3.5rem; }
+  .portBg p {
+    font-size: 1.7rem;
+    font-weight: 300; }
   .gridPort1 {
     padding: 5rem 6rem; }
     .gridPort1 h2 {
@@ -1330,6 +1342,8 @@ footer h5 {
 @media only screen and (min-width: 1440px) {
   .portBg h1 {
     font-size: 3.7rem; }
+  .portBg p {
+    font-size: 1.8rem; }
   .gridPort1 {
     padding: 7rem 8rem; }
     .gridPort1 img {
@@ -1366,7 +1380,7 @@ footer h5 {
   background-color: #EFF4F8; }
 
 .contBg {
-  background-image: url(../Imagenes/toronto2.jpg);
+  background-image: url(../Imagenes/5-vc-SM.jpg);
   background-size: cover;
   height: 90vh;
   background-attachment: fixed;
@@ -1381,7 +1395,7 @@ footer h5 {
     letter-spacing: 2px; }
   .contBg p {
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
     letter-spacing: 1.5px;
     width: 75vw; }
@@ -1451,7 +1465,7 @@ footer h5 {
 /* fin accordeon */
 @media only screen and (min-width: 600px) {
   .contBg {
-    background-image: url(../Imagenes/toronto-cuadrado.jpg); } }
+    background-image: url(../Imagenes/5-vc-TB.jpg); } }
 
 @media only screen and (min-width: 760px) {
   .contBg h1 {
@@ -1461,7 +1475,7 @@ footer h5 {
 
 @media only screen and (min-width: 992px) {
   .contBg {
-    background-image: url(../Imagenes/toronto1.jpg); }
+    background-image: url(../Imagenes/5-vc-XL.jpg); }
     .contBg h1 {
       font-size: 3.2rem;
       letter-spacing: 3px; }
