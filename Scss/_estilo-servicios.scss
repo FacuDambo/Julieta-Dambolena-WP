@@ -20,7 +20,7 @@
 		font-weight: 700;
 		letter-spacing: 2px;
 	}
-	
+
 	p {
 		font-size: 1.2rem;
 		font-weight: 300;
@@ -99,7 +99,7 @@
 
 	p {
 		grid-area: parrafo;
-		padding:10px 10px 0px;
+		padding: 10px 10px 0px;
 		text-align: justify;
 		font-weight: 300;
 	}
@@ -223,8 +223,8 @@
 		}
 	}
 
-	.serv4{
-	padding: 5rem 2rem;
+	.serv4 {
+		padding: 5rem 2rem;
 
 		h3 {
 			padding-bottom: 25px;
@@ -281,14 +281,14 @@
 		}
 	}
 
-	.serv4{
+	.serv4 {
 		padding: 5rem 2rem;
-	
-			h3 {
-				padding-bottom: 25px;
-				width: unset;
-			}
+
+		h3 {
+			padding-bottom: 25px;
+			width: unset;
 		}
+	}
 }
 
 @media only screen and (min-width: 1200px) {
@@ -329,13 +329,13 @@
 		}
 	}
 
-	.serv4{
+	.serv4 {
 		padding: 5rem 2rem;
-	
-			h3 {
-				font-size: 1.8rem;
-			}
+
+		h3 {
+			font-size: 1.8rem;
 		}
+	}
 }
 
 @media only screen and (min-width: 1440px) {
@@ -343,7 +343,7 @@
 		h1 {
 			font-size: 3.7rem;
 		}
-		
+
 		p {
 			font-size: 1.8rem;
 		}
